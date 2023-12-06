@@ -1,0 +1,392 @@
+Build started at 2023-12-05T12:29:23.911995
+Main binary: /Users/ckrtmshehadeh/virtualenvs/pandas-dev/bin/python
+Build Options: -Dbuildtype=release -Db_ndebug=if-release -Db_vscrt=md -Dvsenv=True --native-file=/Users/ckrtmshehadeh/Desktop/6b/pandaslocal/pandas-thomas/build/cp311/meson-python-native-file.ini
+Python system: Darwin
+The Meson build system
+Version: 1.2.1
+Source dir: /Users/ckrtmshehadeh/Desktop/6b/pandaslocal/pandas-thomas
+Build dir: /Users/ckrtmshehadeh/Desktop/6b/pandaslocal/pandas-thomas/build/cp311
+Build type: native build
+Running command: /Users/ckrtmshehadeh/virtualenvs/pandas-dev/bin/python /Users/ckrtmshehadeh/Desktop/6b/pandaslocal/pandas-thomas/generate_version.py --print
+--- stdout ---
+2.2.0.dev0+804.g593fa85504.dirty
+
+--- stderr ---
+
+
+Project name: pandas
+Project version: 2.2.0.dev0+804.g593fa85504.dirty
+-----------
+Detecting compiler via: `cc --version` -> 0
+stdout:
+Apple clang version 14.0.0 (clang-1400.0.29.202)
+Target: x86_64-apple-darwin21.5.0
+Thread model: posix
+InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+-----------
+Running command: cc -E -dM -
+-----
+-----------
+Detecting linker via: `cc -Wl,--version` -> 1
+stderr:
+ld: unknown option: --version
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+-----------
+-----------
+Detecting Apple linker via: `cc -Wl,-v` -> 1
+stderr:
+@(#)PROGRAM:ld  PROJECT:ld64-820.1
+BUILD 20:07:01 Nov  7 2022
+configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
+Library search paths:
+	/usr/local/lib
+	/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib
+Framework search paths:
+	/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/
+Undefined symbols for architecture x86_64:
+  "_main", referenced from:
+     implicit entry/start for main executable
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+-----------
+Sanity testing C compiler: cc
+Is cross compiler: False.
+Sanity check compiler command line: cc sanitycheckc.c -o sanitycheckc.exe
+Sanity check compile stdout:
+
+-----
+Sanity check compile stderr:
+
+-----
+Running test binary command:  /Users/ckrtmshehadeh/Desktop/6b/pandaslocal/pandas-thomas/build/cp311/meson-private/sanitycheckc.exe
+C compiler for the host machine: cc (clang 14.0.0 "Apple clang version 14.0.0 (clang-1400.0.29.202)")
+C linker for the host machine: cc ld64 820.1
+-----------
+Detecting linker via: `ar --version` -> 1
+stderr:
+usage:  ar -d [-TLsv] archive file ...
+	ar -m [-TLsv] archive file ...
+	ar -m [-abiTLsv] position archive file ...
+	ar -p [-TLsv] archive [file ...]
+	ar -q [-cTLsv] archive file ...
+	ar -r [-cuTLsv] archive file ...
+	ar -r [-abciuTLsv] position archive file ...
+	ar -t [-TLsv] archive [file ...]
+	ar -x [-ouTLsv] archive [file ...]
+-----------
+-----------
+Detecting compiler via: `c++ --version` -> 0
+stdout:
+Apple clang version 14.0.0 (clang-1400.0.29.202)
+Target: x86_64-apple-darwin21.5.0
+Thread model: posix
+InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+-----------
+Running command: c++ -E -dM -
+-----
+-----------
+Detecting linker via: `c++ -Wl,--version` -> 1
+stderr:
+ld: unknown option: --version
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+-----------
+-----------
+Detecting Apple linker via: `c++ -Wl,-v` -> 1
+stderr:
+@(#)PROGRAM:ld  PROJECT:ld64-820.1
+BUILD 20:07:01 Nov  7 2022
+configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
+Library search paths:
+	/usr/local/lib
+	/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib
+Framework search paths:
+	/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/
+Undefined symbols for architecture x86_64:
+  "_main", referenced from:
+     implicit entry/start for main executable
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+-----------
+Sanity testing C++ compiler: c++
+Is cross compiler: False.
+Sanity check compiler command line: c++ sanitycheckcpp.cc -o sanitycheckcpp.exe
+Sanity check compile stdout:
+
+-----
+Sanity check compile stderr:
+
+-----
+Running test binary command:  /Users/ckrtmshehadeh/Desktop/6b/pandaslocal/pandas-thomas/build/cp311/meson-private/sanitycheckcpp.exe
+C++ compiler for the host machine: c++ (clang 14.0.0 "Apple clang version 14.0.0 (clang-1400.0.29.202)")
+C++ linker for the host machine: c++ ld64 820.1
+-----------
+Detecting compiler via: `cython -V` -> 0
+stdout:
+Cython version 3.0.5
+-----------
+stderr:
+Cython version 3.0.5
+-----------
+Running compile:
+Working directory:  /var/folders/34/brg801sd3pg85ghr6ybbn99r0000gn/T/tmpxncdwpxq
+Code:
+ print("hello world")
+-----------
+Command line: `cython /var/folders/34/brg801sd3pg85ghr6ybbn99r0000gn/T/tmpxncdwpxq/testfile.pyx -o /var/folders/34/brg801sd3pg85ghr6ybbn99r0000gn/T/tmpxncdwpxq/output.exe --fast-fail` -> 0
+stderr:
+/Users/ckrtmshehadeh/virtualenvs/pandas-dev/lib/python3.11/site-packages/Cython/Compiler/Main.py:381: FutureWarning: Cython directive 'language_level' not set, using '3str' for now (Py3). This has changed from earlier releases! File: /var/folders/34/brg801sd3pg85ghr6ybbn99r0000gn/T/tmpxncdwpxq/testfile.pyx
+  tree = Parsing.p_module(s, pxd, full_module_name)
+-----------
+Cython compiler for the host machine: cython (cython 3.0.5)
+-----------
+Detecting compiler via: `cc --version` -> 0
+stdout:
+Apple clang version 14.0.0 (clang-1400.0.29.202)
+Target: x86_64-apple-darwin21.5.0
+Thread model: posix
+InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+-----------
+Running command: cc -E -dM -
+-----
+-----------
+Detecting linker via: `cc -Wl,--version` -> 1
+stderr:
+ld: unknown option: --version
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+-----------
+-----------
+Detecting Apple linker via: `cc -Wl,-v` -> 1
+stderr:
+@(#)PROGRAM:ld  PROJECT:ld64-820.1
+BUILD 20:07:01 Nov  7 2022
+configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
+Library search paths:
+	/usr/local/lib
+	/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib
+Framework search paths:
+	/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/
+Undefined symbols for architecture x86_64:
+  "_main", referenced from:
+     implicit entry/start for main executable
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+-----------
+Sanity testing C compiler: cc
+Is cross compiler: False.
+Sanity check compiler command line: cc sanitycheckc.c -o sanitycheckc.exe
+Sanity check compile stdout:
+
+-----
+Sanity check compile stderr:
+
+-----
+Running test binary command:  /Users/ckrtmshehadeh/Desktop/6b/pandaslocal/pandas-thomas/build/cp311/meson-private/sanitycheckc.exe
+C compiler for the build machine: cc (clang 14.0.0 "Apple clang version 14.0.0 (clang-1400.0.29.202)")
+C linker for the build machine: cc ld64 820.1
+-----------
+Detecting linker via: `ar --version` -> 1
+stderr:
+usage:  ar -d [-TLsv] archive file ...
+	ar -m [-TLsv] archive file ...
+	ar -m [-abiTLsv] position archive file ...
+	ar -p [-TLsv] archive [file ...]
+	ar -q [-cTLsv] archive file ...
+	ar -r [-cuTLsv] archive file ...
+	ar -r [-abciuTLsv] position archive file ...
+	ar -t [-TLsv] archive [file ...]
+	ar -x [-ouTLsv] archive [file ...]
+-----------
+-----------
+Detecting compiler via: `c++ --version` -> 0
+stdout:
+Apple clang version 14.0.0 (clang-1400.0.29.202)
+Target: x86_64-apple-darwin21.5.0
+Thread model: posix
+InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+-----------
+Running command: c++ -E -dM -
+-----
+-----------
+Detecting linker via: `c++ -Wl,--version` -> 1
+stderr:
+ld: unknown option: --version
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+-----------
+-----------
+Detecting Apple linker via: `c++ -Wl,-v` -> 1
+stderr:
+@(#)PROGRAM:ld  PROJECT:ld64-820.1
+BUILD 20:07:01 Nov  7 2022
+configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
+Library search paths:
+	/usr/local/lib
+	/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib
+Framework search paths:
+	/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/
+Undefined symbols for architecture x86_64:
+  "_main", referenced from:
+     implicit entry/start for main executable
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+-----------
+Sanity testing C++ compiler: c++
+Is cross compiler: False.
+Sanity check compiler command line: c++ sanitycheckcpp.cc -o sanitycheckcpp.exe
+Sanity check compile stdout:
+
+-----
+Sanity check compile stderr:
+
+-----
+Running test binary command:  /Users/ckrtmshehadeh/Desktop/6b/pandaslocal/pandas-thomas/build/cp311/meson-private/sanitycheckcpp.exe
+C++ compiler for the build machine: c++ (clang 14.0.0 "Apple clang version 14.0.0 (clang-1400.0.29.202)")
+C++ linker for the build machine: c++ ld64 820.1
+-----------
+Detecting compiler via: `cython -V` -> 0
+stdout:
+Cython version 3.0.5
+-----------
+stderr:
+Cython version 3.0.5
+-----------
+Using cached compile:
+Cached command line:  cython /var/folders/34/brg801sd3pg85ghr6ybbn99r0000gn/T/tmpxncdwpxq/testfile.pyx -o /var/folders/34/brg801sd3pg85ghr6ybbn99r0000gn/T/tmpxncdwpxq/output.exe --fast-fail 
+
+Code:
+ print("hello world")
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ /Users/ckrtmshehadeh/virtualenvs/pandas-dev/lib/python3.11/site-packages/Cython/Compiler/Main.py:381: FutureWarning: Cython directive 'language_level' not set, using '3str' for now (Py3). This has changed from earlier releases! File: /var/folders/34/brg801sd3pg85ghr6ybbn99r0000gn/T/tmpxncdwpxq/testfile.pyx
+  tree = Parsing.p_module(s, pxd, full_module_name)
+
+Cython compiler for the build machine: cython (cython 3.0.5)
+Build machine cpu family: x86_64
+Build machine cpu: x86_64
+Host machine cpu family: x86_64
+Host machine cpu: x86_64
+Target machine cpu family: x86_64
+Target machine cpu: x86_64
+Program python found: YES (/Users/ckrtmshehadeh/virtualenvs/pandas-dev/bin/python)
+Running command: /Users/ckrtmshehadeh/virtualenvs/pandas-dev/bin/python -c '
+import os
+import numpy as np
+try:
+    # Check if include directory is inside the pandas dir
+    # e.g. a venv created inside the pandas dir
+    # If so, convert it to a relative path
+    incdir = os.path.relpath(np.get_include())
+except Exception:
+    incdir = np.get_include()
+print(incdir)
+     '
+--- stdout ---
+../../../../../virtualenvs/pandas-dev/lib/python3.11/site-packages/numpy/core/include
+
+--- stderr ---
+
+
+Searching for 'python-3.11' via pkgconfig lookup in LIBPC
+Pkg-config binary for 1 is not cached.
+Pkg-config binary missing from cross or native file, or env var undefined.
+Trying a default Pkg-config fallback at pkg-config
+Found pkg-config: /usr/local/bin/pkg-config (0.29.2)
+Determining dependency 'python-3.11' with pkg-config executable '/usr/local/bin/pkg-config'
+env[PKG_CONFIG_LIBDIR]: /Users/ckrtmshehadeh/anaconda3/lib/pkgconfig
+env[PKG_CONFIG_PATH]: 
+-----------
+Called: `/usr/local/bin/pkg-config --modversion python-3.11` -> 0
+stdout:
+3.11
+-----------
+env[PKG_CONFIG_LIBDIR]: /Users/ckrtmshehadeh/anaconda3/lib/pkgconfig
+env[PKG_CONFIG_PATH]: 
+-----------
+Called: `/usr/local/bin/pkg-config --cflags python-3.11` -> 0
+stdout:
+-I/Users/ckrtmshehadeh/anaconda3/include/python3.11
+-----------
+env[PKG_CONFIG_LIBDIR]: /Users/ckrtmshehadeh/anaconda3/lib/pkgconfig
+env[PKG_CONFIG_ALLOW_SYSTEM_LIBS]: 1
+env[PKG_CONFIG_PATH]: 
+-----------
+Called: `/usr/local/bin/pkg-config --libs python-3.11` -> 0
+env[PKG_CONFIG_LIBDIR]: /Users/ckrtmshehadeh/anaconda3/lib/pkgconfig
+env[PKG_CONFIG_PATH]: 
+-----------
+Called: `/usr/local/bin/pkg-config --libs python-3.11` -> 0
+Run-time dependency python found: YES 3.11
+Build targets in project: 54
+
+pandas 2.2.0.dev0+804.g593fa85504.dirty
+
+  User defined options
+    Native files: /Users/ckrtmshehadeh/Desktop/6b/pandaslocal/pandas-thomas/build/cp311/meson-python-native-file.ini
+    buildtype   : release
+    vsenv       : True
+    b_ndebug    : if-release
+    b_vscrt     : md
+
+Failed to guess install tag for /usr/local/lib/python3.11/site-packages/pandas/_version_meson.py
+Failed to guess install tag for /usr/local/lib/python3.11/site-packages/pandas/dummy
+Failed to guess install tag for /usr/local/lib/python3.11/site-packages/pandas/dummy
+Failed to guess install tag for /usr/local/lib/python3.11/site-packages/pandas/dummy
+Failed to guess install tag for /usr/local/lib/python3.11/site-packages/pandas/dummy
+Failed to guess install tag for /usr/local/lib/python3.11/site-packages/pandas/dummy
+Failed to guess install tag for /usr/local/lib/python3.11/site-packages/pandas/dummy
+Failed to guess install tag for /usr/local/lib/python3.11/site-packages/pandas/dummy
+Failed to guess install tag for /usr/local/lib/python3.11/site-packages/pandas/dummy
+Failed to guess install tag for /usr/local/lib/python3.11/site-packages/pandas/dummy
+Failed to guess install tag for /usr/local/lib/python3.11/site-packages/pandas/dummy
+Failed to guess install tag for /usr/local/lib/python3.11/site-packages/pandas/dummy
+Failed to guess install tag for /usr/local/lib/python3.11/site-packages/pandas/dummy
+Found ninja-1.11.1.git.kitware.jobserver-1 at /Users/ckrtmshehadeh/virtualenvs/pandas-dev/bin/ninja
+
+Visual Studio environment is needed to run Ninja. It is recommended to use Meson wrapper:
+/Users/ckrtmshehadeh/virtualenvs/pandas-dev/bin/meson compile -C .
+Running compile:
+Working directory:  /Users/ckrtmshehadeh/Desktop/6b/pandaslocal/pandas-thomas/build/cp311/meson-private/tmpwatiu4_m
+Code:
+ 
+-----------
+Command line: `cc /Users/ckrtmshehadeh/Desktop/6b/pandaslocal/pandas-thomas/build/cp311/meson-private/tmpwatiu4_m/testfile.c -o /Users/ckrtmshehadeh/Desktop/6b/pandaslocal/pandas-thomas/build/cp311/meson-private/tmpwatiu4_m/output.obj -c -O0 -Werror=implicit-function-declaration -Werror=unknown-warning-option -Werror=unused-command-line-argument -Werror=ignored-optimization-argument --print-search-dirs` -> 0
+stdout:
+programs: =/Library/Developer/CommandLineTools/usr/bin
+libraries: =/Library/Developer/CommandLineTools/usr/lib/clang/14.0.0
+-----------
+Running compile:
+Working directory:  /Users/ckrtmshehadeh/Desktop/6b/pandaslocal/pandas-thomas/build/cp311/meson-private/tmp84fww2b9
+Code:
+ 
+-----------
+Command line: `c++ /Users/ckrtmshehadeh/Desktop/6b/pandaslocal/pandas-thomas/build/cp311/meson-private/tmp84fww2b9/testfile.cpp -o /Users/ckrtmshehadeh/Desktop/6b/pandaslocal/pandas-thomas/build/cp311/meson-private/tmp84fww2b9/output.obj -c -O0 -fpermissive -Werror=implicit-function-declaration -Werror=unknown-warning-option -Werror=unused-command-line-argument -Werror=ignored-optimization-argument --print-search-dirs` -> 0
+stdout:
+programs: =/Library/Developer/CommandLineTools/usr/bin
+libraries: =/Library/Developer/CommandLineTools/usr/lib/clang/14.0.0
+-----------
+Failed to guess install tag for /usr/local/lib/python3.11/site-packages/pandas/_version_meson.py
+Failed to guess install tag for /usr/local/lib/python3.11/site-packages/pandas/dummy
+Failed to guess install tag for /usr/local/lib/python3.11/site-packages/pandas/dummy
+Failed to guess install tag for /usr/local/lib/python3.11/site-packages/pandas/dummy
+Failed to guess install tag for /usr/local/lib/python3.11/site-packages/pandas/dummy
+Failed to guess install tag for /usr/local/lib/python3.11/site-packages/pandas/dummy
+Failed to guess install tag for /usr/local/lib/python3.11/site-packages/pandas/dummy
+Failed to guess install tag for /usr/local/lib/python3.11/site-packages/pandas/dummy
+Failed to guess install tag for /usr/local/lib/python3.11/site-packages/pandas/dummy
+Failed to guess install tag for /usr/local/lib/python3.11/site-packages/pandas/dummy
+Failed to guess install tag for /usr/local/lib/python3.11/site-packages/pandas/dummy
+Failed to guess install tag for /usr/local/lib/python3.11/site-packages/pandas/dummy
+Failed to guess install tag for /usr/local/lib/python3.11/site-packages/pandas/dummy
+Failed to guess install tag for /usr/local/lib/python3.11/site-packages/pandas/_version_meson.py
+Failed to guess install tag for /usr/local/lib/python3.11/site-packages/pandas/dummy
+Failed to guess install tag for /usr/local/lib/python3.11/site-packages/pandas/dummy
+Failed to guess install tag for /usr/local/lib/python3.11/site-packages/pandas/dummy
+Failed to guess install tag for /usr/local/lib/python3.11/site-packages/pandas/dummy
+Failed to guess install tag for /usr/local/lib/python3.11/site-packages/pandas/dummy
+Failed to guess install tag for /usr/local/lib/python3.11/site-packages/pandas/dummy
+Failed to guess install tag for /usr/local/lib/python3.11/site-packages/pandas/dummy
+Failed to guess install tag for /usr/local/lib/python3.11/site-packages/pandas/dummy
+Failed to guess install tag for /usr/local/lib/python3.11/site-packages/pandas/dummy
+Failed to guess install tag for /usr/local/lib/python3.11/site-packages/pandas/dummy
+Failed to guess install tag for /usr/local/lib/python3.11/site-packages/pandas/dummy
+Failed to guess install tag for /usr/local/lib/python3.11/site-packages/pandas/dummy

@@ -1,0 +1,590 @@
+[
+  {
+    "directory": "/Users/ckrtmshehadeh/Desktop/6b/pandaslocal/pandas-thomas/build/cp311",
+    "command": "cython -M --fast-fail -3 --include-dir /Users/ckrtmshehadeh/Desktop/6b/pandaslocal/pandas-thomas/build/cp311/pandas/_libs/tslibs '-X always_allow_keywords=true' /Users/ckrtmshehadeh/Desktop/6b/pandaslocal/pandas-thomas/pandas/_libs/tslibs/base.pyx -o pandas/_libs/tslibs/base.cpython-311-darwin.so.p/pandas/_libs/tslibs/base.pyx.c",
+    "file": "/Users/ckrtmshehadeh/Desktop/6b/pandaslocal/pandas-thomas/pandas/_libs/tslibs/base.pyx",
+    "output": "pandas/_libs/tslibs/base.cpython-311-darwin.so.p/pandas/_libs/tslibs/base.pyx.c"
+  },
+  {
+    "directory": "/Users/ckrtmshehadeh/Desktop/6b/pandaslocal/pandas-thomas/build/cp311",
+    "command": "cc -Ipandas/_libs/tslibs/base.cpython-311-darwin.so.p -Ipandas/_libs/tslibs -I../../pandas/_libs/tslibs -I../../../../../../virtualenvs/pandas-dev/lib/python3.11/site-packages/numpy/core/include -I../../pandas/_libs/include -I/Users/ckrtmshehadeh/anaconda3/include/python3.11 -fvisibility=hidden -fcolor-diagnostics -DNDEBUG -w -std=c11 -O3 -DNPY_NO_DEPRECATED_API=0 -DNPY_TARGET_VERSION=NPY_1_21_API_VERSION -MD -MQ pandas/_libs/tslibs/base.cpython-311-darwin.so.p/meson-generated_pandas__libs_tslibs_base.pyx.c.o -MF pandas/_libs/tslibs/base.cpython-311-darwin.so.p/meson-generated_pandas__libs_tslibs_base.pyx.c.o.d -o pandas/_libs/tslibs/base.cpython-311-darwin.so.p/meson-generated_pandas__libs_tslibs_base.pyx.c.o -c pandas/_libs/tslibs/base.cpython-311-darwin.so.p/pandas/_libs/tslibs/base.pyx.c",
+    "file": "pandas/_libs/tslibs/base.cpython-311-darwin.so.p/pandas/_libs/tslibs/base.pyx.c",
+    "output": "pandas/_libs/tslibs/base.cpython-311-darwin.so.p/meson-generated_pandas__libs_tslibs_base.pyx.c.o"
+  },
+  {
+    "directory": "/Users/ckrtmshehadeh/Desktop/6b/pandaslocal/pandas-thomas/build/cp311",
+    "command": "cython -M --fast-fail -3 --include-dir /Users/ckrtmshehadeh/Desktop/6b/pandaslocal/pandas-thomas/build/cp311/pandas/_libs/tslibs '-X always_allow_keywords=true' /Users/ckrtmshehadeh/Desktop/6b/pandaslocal/pandas-thomas/pandas/_libs/tslibs/ccalendar.pyx -o pandas/_libs/tslibs/ccalendar.cpython-311-darwin.so.p/pandas/_libs/tslibs/ccalendar.pyx.c",
+    "file": "/Users/ckrtmshehadeh/Desktop/6b/pandaslocal/pandas-thomas/pandas/_libs/tslibs/ccalendar.pyx",
+    "output": "pandas/_libs/tslibs/ccalendar.cpython-311-darwin.so.p/pandas/_libs/tslibs/ccalendar.pyx.c"
+  },
+  {
+    "directory": "/Users/ckrtmshehadeh/Desktop/6b/pandaslocal/pandas-thomas/build/cp311",
+    "command": "cc -Ipandas/_libs/tslibs/ccalendar.cpython-311-darwin.so.p -Ipandas/_libs/tslibs -I../../pandas/_libs/tslibs -I../../../../../../virtualenvs/pandas-dev/lib/python3.11/site-packages/numpy/core/include -I../../pandas/_libs/include -I/Users/ckrtmshehadeh/anaconda3/include/python3.11 -fvisibility=hidden -fcolor-diagnostics -DNDEBUG -w -std=c11 -O3 -DNPY_NO_DEPRECATED_API=0 -DNPY_TARGET_VERSION=NPY_1_21_API_VERSION -MD -MQ pandas/_libs/tslibs/ccalendar.cpython-311-darwin.so.p/meson-generated_pandas__libs_tslibs_ccalendar.pyx.c.o -MF pandas/_libs/tslibs/ccalendar.cpython-311-darwin.so.p/meson-generated_pandas__libs_tslibs_ccalendar.pyx.c.o.d -o pandas/_libs/tslibs/ccalendar.cpython-311-darwin.so.p/meson-generated_pandas__libs_tslibs_ccalendar.pyx.c.o -c pandas/_libs/tslibs/ccalendar.cpython-311-darwin.so.p/pandas/_libs/tslibs/ccalendar.pyx.c",
+    "file": "pandas/_libs/tslibs/ccalendar.cpython-311-darwin.so.p/pandas/_libs/tslibs/ccalendar.pyx.c",
+    "output": "pandas/_libs/tslibs/ccalendar.cpython-311-darwin.so.p/meson-generated_pandas__libs_tslibs_ccalendar.pyx.c.o"
+  },
+  {
+    "directory": "/Users/ckrtmshehadeh/Desktop/6b/pandaslocal/pandas-thomas/build/cp311",
+    "command": "cython -M --fast-fail -3 --include-dir /Users/ckrtmshehadeh/Desktop/6b/pandaslocal/pandas-thomas/build/cp311/pandas/_libs/tslibs '-X always_allow_keywords=true' /Users/ckrtmshehadeh/Desktop/6b/pandaslocal/pandas-thomas/pandas/_libs/tslibs/dtypes.pyx -o pandas/_libs/tslibs/dtypes.cpython-311-darwin.so.p/pandas/_libs/tslibs/dtypes.pyx.c",
+    "file": "/Users/ckrtmshehadeh/Desktop/6b/pandaslocal/pandas-thomas/pandas/_libs/tslibs/dtypes.pyx",
+    "output": "pandas/_libs/tslibs/dtypes.cpython-311-darwin.so.p/pandas/_libs/tslibs/dtypes.pyx.c"
+  },
+  {
+    "directory": "/Users/ckrtmshehadeh/Desktop/6b/pandaslocal/pandas-thomas/build/cp311",
+    "command": "cc -Ipandas/_libs/tslibs/dtypes.cpython-311-darwin.so.p -Ipandas/_libs/tslibs -I../../pandas/_libs/tslibs -I../../../../../../virtualenvs/pandas-dev/lib/python3.11/site-packages/numpy/core/include -I../../pandas/_libs/include -I/Users/ckrtmshehadeh/anaconda3/include/python3.11 -fvisibility=hidden -fcolor-diagnostics -DNDEBUG -w -std=c11 -O3 -DNPY_NO_DEPRECATED_API=0 -DNPY_TARGET_VERSION=NPY_1_21_API_VERSION -MD -MQ pandas/_libs/tslibs/dtypes.cpython-311-darwin.so.p/meson-generated_pandas__libs_tslibs_dtypes.pyx.c.o -MF pandas/_libs/tslibs/dtypes.cpython-311-darwin.so.p/meson-generated_pandas__libs_tslibs_dtypes.pyx.c.o.d -o pandas/_libs/tslibs/dtypes.cpython-311-darwin.so.p/meson-generated_pandas__libs_tslibs_dtypes.pyx.c.o -c pandas/_libs/tslibs/dtypes.cpython-311-darwin.so.p/pandas/_libs/tslibs/dtypes.pyx.c",
+    "file": "pandas/_libs/tslibs/dtypes.cpython-311-darwin.so.p/pandas/_libs/tslibs/dtypes.pyx.c",
+    "output": "pandas/_libs/tslibs/dtypes.cpython-311-darwin.so.p/meson-generated_pandas__libs_tslibs_dtypes.pyx.c.o"
+  },
+  {
+    "directory": "/Users/ckrtmshehadeh/Desktop/6b/pandaslocal/pandas-thomas/build/cp311",
+    "command": "cython -M --fast-fail -3 --include-dir /Users/ckrtmshehadeh/Desktop/6b/pandaslocal/pandas-thomas/build/cp311/pandas/_libs/tslibs '-X always_allow_keywords=true' /Users/ckrtmshehadeh/Desktop/6b/pandaslocal/pandas-thomas/pandas/_libs/tslibs/conversion.pyx -o pandas/_libs/tslibs/conversion.cpython-311-darwin.so.p/pandas/_libs/tslibs/conversion.pyx.c",
+    "file": "/Users/ckrtmshehadeh/Desktop/6b/pandaslocal/pandas-thomas/pandas/_libs/tslibs/conversion.pyx",
+    "output": "pandas/_libs/tslibs/conversion.cpython-311-darwin.so.p/pandas/_libs/tslibs/conversion.pyx.c"
+  },
+  {
+    "directory": "/Users/ckrtmshehadeh/Desktop/6b/pandaslocal/pandas-thomas/build/cp311",
+    "command": "cc -Ipandas/_libs/tslibs/conversion.cpython-311-darwin.so.p -Ipandas/_libs/tslibs -I../../pandas/_libs/tslibs -I../../../../../../virtualenvs/pandas-dev/lib/python3.11/site-packages/numpy/core/include -I../../pandas/_libs/include -I/Users/ckrtmshehadeh/anaconda3/include/python3.11 -fvisibility=hidden -fcolor-diagnostics -DNDEBUG -w -std=c11 -O3 -DNPY_NO_DEPRECATED_API=0 -DNPY_TARGET_VERSION=NPY_1_21_API_VERSION -MD -MQ pandas/_libs/tslibs/conversion.cpython-311-darwin.so.p/meson-generated_pandas__libs_tslibs_conversion.pyx.c.o -MF pandas/_libs/tslibs/conversion.cpython-311-darwin.so.p/meson-generated_pandas__libs_tslibs_conversion.pyx.c.o.d -o pandas/_libs/tslibs/conversion.cpython-311-darwin.so.p/meson-generated_pandas__libs_tslibs_conversion.pyx.c.o -c pandas/_libs/tslibs/conversion.cpython-311-darwin.so.p/pandas/_libs/tslibs/conversion.pyx.c",
+    "file": "pandas/_libs/tslibs/conversion.cpython-311-darwin.so.p/pandas/_libs/tslibs/conversion.pyx.c",
+    "output": "pandas/_libs/tslibs/conversion.cpython-311-darwin.so.p/meson-generated_pandas__libs_tslibs_conversion.pyx.c.o"
+  },
+  {
+    "directory": "/Users/ckrtmshehadeh/Desktop/6b/pandaslocal/pandas-thomas/build/cp311",
+    "command": "cython -M --fast-fail -3 --include-dir /Users/ckrtmshehadeh/Desktop/6b/pandaslocal/pandas-thomas/build/cp311/pandas/_libs/tslibs '-X always_allow_keywords=true' /Users/ckrtmshehadeh/Desktop/6b/pandaslocal/pandas-thomas/pandas/_libs/tslibs/fields.pyx -o pandas/_libs/tslibs/fields.cpython-311-darwin.so.p/pandas/_libs/tslibs/fields.pyx.c",
+    "file": "/Users/ckrtmshehadeh/Desktop/6b/pandaslocal/pandas-thomas/pandas/_libs/tslibs/fields.pyx",
+    "output": "pandas/_libs/tslibs/fields.cpython-311-darwin.so.p/pandas/_libs/tslibs/fields.pyx.c"
+  },
+  {
+    "directory": "/Users/ckrtmshehadeh/Desktop/6b/pandaslocal/pandas-thomas/build/cp311",
+    "command": "cc -Ipandas/_libs/tslibs/fields.cpython-311-darwin.so.p -Ipandas/_libs/tslibs -I../../pandas/_libs/tslibs -I../../../../../../virtualenvs/pandas-dev/lib/python3.11/site-packages/numpy/core/include -I../../pandas/_libs/include -I/Users/ckrtmshehadeh/anaconda3/include/python3.11 -fvisibility=hidden -fcolor-diagnostics -DNDEBUG -w -std=c11 -O3 -DNPY_NO_DEPRECATED_API=0 -DNPY_TARGET_VERSION=NPY_1_21_API_VERSION -MD -MQ pandas/_libs/tslibs/fields.cpython-311-darwin.so.p/meson-generated_pandas__libs_tslibs_fields.pyx.c.o -MF pandas/_libs/tslibs/fields.cpython-311-darwin.so.p/meson-generated_pandas__libs_tslibs_fields.pyx.c.o.d -o pandas/_libs/tslibs/fields.cpython-311-darwin.so.p/meson-generated_pandas__libs_tslibs_fields.pyx.c.o -c pandas/_libs/tslibs/fields.cpython-311-darwin.so.p/pandas/_libs/tslibs/fields.pyx.c",
+    "file": "pandas/_libs/tslibs/fields.cpython-311-darwin.so.p/pandas/_libs/tslibs/fields.pyx.c",
+    "output": "pandas/_libs/tslibs/fields.cpython-311-darwin.so.p/meson-generated_pandas__libs_tslibs_fields.pyx.c.o"
+  },
+  {
+    "directory": "/Users/ckrtmshehadeh/Desktop/6b/pandaslocal/pandas-thomas/build/cp311",
+    "command": "cython -M --fast-fail -3 --include-dir /Users/ckrtmshehadeh/Desktop/6b/pandaslocal/pandas-thomas/build/cp311/pandas/_libs/tslibs '-X always_allow_keywords=true' /Users/ckrtmshehadeh/Desktop/6b/pandaslocal/pandas-thomas/pandas/_libs/tslibs/nattype.pyx -o pandas/_libs/tslibs/nattype.cpython-311-darwin.so.p/pandas/_libs/tslibs/nattype.pyx.c",
+    "file": "/Users/ckrtmshehadeh/Desktop/6b/pandaslocal/pandas-thomas/pandas/_libs/tslibs/nattype.pyx",
+    "output": "pandas/_libs/tslibs/nattype.cpython-311-darwin.so.p/pandas/_libs/tslibs/nattype.pyx.c"
+  },
+  {
+    "directory": "/Users/ckrtmshehadeh/Desktop/6b/pandaslocal/pandas-thomas/build/cp311",
+    "command": "cc -Ipandas/_libs/tslibs/nattype.cpython-311-darwin.so.p -Ipandas/_libs/tslibs -I../../pandas/_libs/tslibs -I../../../../../../virtualenvs/pandas-dev/lib/python3.11/site-packages/numpy/core/include -I../../pandas/_libs/include -I/Users/ckrtmshehadeh/anaconda3/include/python3.11 -fvisibility=hidden -fcolor-diagnostics -DNDEBUG -w -std=c11 -O3 -DNPY_NO_DEPRECATED_API=0 -DNPY_TARGET_VERSION=NPY_1_21_API_VERSION -MD -MQ pandas/_libs/tslibs/nattype.cpython-311-darwin.so.p/meson-generated_pandas__libs_tslibs_nattype.pyx.c.o -MF pandas/_libs/tslibs/nattype.cpython-311-darwin.so.p/meson-generated_pandas__libs_tslibs_nattype.pyx.c.o.d -o pandas/_libs/tslibs/nattype.cpython-311-darwin.so.p/meson-generated_pandas__libs_tslibs_nattype.pyx.c.o -c pandas/_libs/tslibs/nattype.cpython-311-darwin.so.p/pandas/_libs/tslibs/nattype.pyx.c",
+    "file": "pandas/_libs/tslibs/nattype.cpython-311-darwin.so.p/pandas/_libs/tslibs/nattype.pyx.c",
+    "output": "pandas/_libs/tslibs/nattype.cpython-311-darwin.so.p/meson-generated_pandas__libs_tslibs_nattype.pyx.c.o"
+  },
+  {
+    "directory": "/Users/ckrtmshehadeh/Desktop/6b/pandaslocal/pandas-thomas/build/cp311",
+    "command": "cython -M --fast-fail -3 --include-dir /Users/ckrtmshehadeh/Desktop/6b/pandaslocal/pandas-thomas/build/cp311/pandas/_libs/tslibs '-X always_allow_keywords=true' /Users/ckrtmshehadeh/Desktop/6b/pandaslocal/pandas-thomas/pandas/_libs/tslibs/np_datetime.pyx -o pandas/_libs/tslibs/np_datetime.cpython-311-darwin.so.p/pandas/_libs/tslibs/np_datetime.pyx.c",
+    "file": "/Users/ckrtmshehadeh/Desktop/6b/pandaslocal/pandas-thomas/pandas/_libs/tslibs/np_datetime.pyx",
+    "output": "pandas/_libs/tslibs/np_datetime.cpython-311-darwin.so.p/pandas/_libs/tslibs/np_datetime.pyx.c"
+  },
+  {
+    "directory": "/Users/ckrtmshehadeh/Desktop/6b/pandaslocal/pandas-thomas/build/cp311",
+    "command": "cc -Ipandas/_libs/tslibs/np_datetime.cpython-311-darwin.so.p -Ipandas/_libs/tslibs -I../../pandas/_libs/tslibs -I../../../../../../virtualenvs/pandas-dev/lib/python3.11/site-packages/numpy/core/include -I../../pandas/_libs/include -I/Users/ckrtmshehadeh/anaconda3/include/python3.11 -fvisibility=hidden -fcolor-diagnostics -DNDEBUG -w -std=c11 -O3 -DNPY_NO_DEPRECATED_API=0 -DNPY_TARGET_VERSION=NPY_1_21_API_VERSION -MD -MQ pandas/_libs/tslibs/np_datetime.cpython-311-darwin.so.p/meson-generated_pandas__libs_tslibs_np_datetime.pyx.c.o -MF pandas/_libs/tslibs/np_datetime.cpython-311-darwin.so.p/meson-generated_pandas__libs_tslibs_np_datetime.pyx.c.o.d -o pandas/_libs/tslibs/np_datetime.cpython-311-darwin.so.p/meson-generated_pandas__libs_tslibs_np_datetime.pyx.c.o -c pandas/_libs/tslibs/np_datetime.cpython-311-darwin.so.p/pandas/_libs/tslibs/np_datetime.pyx.c",
+    "file": "pandas/_libs/tslibs/np_datetime.cpython-311-darwin.so.p/pandas/_libs/tslibs/np_datetime.pyx.c",
+    "output": "pandas/_libs/tslibs/np_datetime.cpython-311-darwin.so.p/meson-generated_pandas__libs_tslibs_np_datetime.pyx.c.o"
+  },
+  {
+    "directory": "/Users/ckrtmshehadeh/Desktop/6b/pandaslocal/pandas-thomas/build/cp311",
+    "command": "cython -M --fast-fail -3 --include-dir /Users/ckrtmshehadeh/Desktop/6b/pandaslocal/pandas-thomas/build/cp311/pandas/_libs/tslibs '-X always_allow_keywords=true' /Users/ckrtmshehadeh/Desktop/6b/pandaslocal/pandas-thomas/pandas/_libs/tslibs/offsets.pyx -o pandas/_libs/tslibs/offsets.cpython-311-darwin.so.p/pandas/_libs/tslibs/offsets.pyx.c",
+    "file": "/Users/ckrtmshehadeh/Desktop/6b/pandaslocal/pandas-thomas/pandas/_libs/tslibs/offsets.pyx",
+    "output": "pandas/_libs/tslibs/offsets.cpython-311-darwin.so.p/pandas/_libs/tslibs/offsets.pyx.c"
+  },
+  {
+    "directory": "/Users/ckrtmshehadeh/Desktop/6b/pandaslocal/pandas-thomas/build/cp311",
+    "command": "cc -Ipandas/_libs/tslibs/offsets.cpython-311-darwin.so.p -Ipandas/_libs/tslibs -I../../pandas/_libs/tslibs -I../../../../../../virtualenvs/pandas-dev/lib/python3.11/site-packages/numpy/core/include -I../../pandas/_libs/include -I/Users/ckrtmshehadeh/anaconda3/include/python3.11 -fvisibility=hidden -fcolor-diagnostics -DNDEBUG -w -std=c11 -O3 -DNPY_NO_DEPRECATED_API=0 -DNPY_TARGET_VERSION=NPY_1_21_API_VERSION -MD -MQ pandas/_libs/tslibs/offsets.cpython-311-darwin.so.p/meson-generated_pandas__libs_tslibs_offsets.pyx.c.o -MF pandas/_libs/tslibs/offsets.cpython-311-darwin.so.p/meson-generated_pandas__libs_tslibs_offsets.pyx.c.o.d -o pandas/_libs/tslibs/offsets.cpython-311-darwin.so.p/meson-generated_pandas__libs_tslibs_offsets.pyx.c.o -c pandas/_libs/tslibs/offsets.cpython-311-darwin.so.p/pandas/_libs/tslibs/offsets.pyx.c",
+    "file": "pandas/_libs/tslibs/offsets.cpython-311-darwin.so.p/pandas/_libs/tslibs/offsets.pyx.c",
+    "output": "pandas/_libs/tslibs/offsets.cpython-311-darwin.so.p/meson-generated_pandas__libs_tslibs_offsets.pyx.c.o"
+  },
+  {
+    "directory": "/Users/ckrtmshehadeh/Desktop/6b/pandaslocal/pandas-thomas/build/cp311",
+    "command": "cython -M --fast-fail -3 --include-dir /Users/ckrtmshehadeh/Desktop/6b/pandaslocal/pandas-thomas/build/cp311/pandas/_libs/tslibs '-X always_allow_keywords=true' /Users/ckrtmshehadeh/Desktop/6b/pandaslocal/pandas-thomas/pandas/_libs/tslibs/parsing.pyx -o pandas/_libs/tslibs/parsing.cpython-311-darwin.so.p/pandas/_libs/tslibs/parsing.pyx.c",
+    "file": "/Users/ckrtmshehadeh/Desktop/6b/pandaslocal/pandas-thomas/pandas/_libs/tslibs/parsing.pyx",
+    "output": "pandas/_libs/tslibs/parsing.cpython-311-darwin.so.p/pandas/_libs/tslibs/parsing.pyx.c"
+  },
+  {
+    "directory": "/Users/ckrtmshehadeh/Desktop/6b/pandaslocal/pandas-thomas/build/cp311",
+    "command": "cc -Ipandas/_libs/tslibs/parsing.cpython-311-darwin.so.p -Ipandas/_libs/tslibs -I../../pandas/_libs/tslibs -I../../../../../../virtualenvs/pandas-dev/lib/python3.11/site-packages/numpy/core/include -I../../pandas/_libs/include -I/Users/ckrtmshehadeh/anaconda3/include/python3.11 -fvisibility=hidden -fcolor-diagnostics -DNDEBUG -w -std=c11 -O3 -DNPY_NO_DEPRECATED_API=0 -DNPY_TARGET_VERSION=NPY_1_21_API_VERSION -MD -MQ pandas/_libs/tslibs/parsing.cpython-311-darwin.so.p/meson-generated_pandas__libs_tslibs_parsing.pyx.c.o -MF pandas/_libs/tslibs/parsing.cpython-311-darwin.so.p/meson-generated_pandas__libs_tslibs_parsing.pyx.c.o.d -o pandas/_libs/tslibs/parsing.cpython-311-darwin.so.p/meson-generated_pandas__libs_tslibs_parsing.pyx.c.o -c pandas/_libs/tslibs/parsing.cpython-311-darwin.so.p/pandas/_libs/tslibs/parsing.pyx.c",
+    "file": "pandas/_libs/tslibs/parsing.cpython-311-darwin.so.p/pandas/_libs/tslibs/parsing.pyx.c",
+    "output": "pandas/_libs/tslibs/parsing.cpython-311-darwin.so.p/meson-generated_pandas__libs_tslibs_parsing.pyx.c.o"
+  },
+  {
+    "directory": "/Users/ckrtmshehadeh/Desktop/6b/pandaslocal/pandas-thomas/build/cp311",
+    "command": "cc -Ipandas/_libs/tslibs/parsing.cpython-311-darwin.so.p -Ipandas/_libs/tslibs -I../../pandas/_libs/tslibs -I../../../../../../virtualenvs/pandas-dev/lib/python3.11/site-packages/numpy/core/include -I../../pandas/_libs/include -I/Users/ckrtmshehadeh/anaconda3/include/python3.11 -fvisibility=hidden -fcolor-diagnostics -DNDEBUG -Wall -Winvalid-pch -std=c11 -O3 -DNPY_NO_DEPRECATED_API=0 -DNPY_TARGET_VERSION=NPY_1_21_API_VERSION -MD -MQ pandas/_libs/tslibs/parsing.cpython-311-darwin.so.p/.._src_parser_tokenizer.c.o -MF pandas/_libs/tslibs/parsing.cpython-311-darwin.so.p/.._src_parser_tokenizer.c.o.d -o pandas/_libs/tslibs/parsing.cpython-311-darwin.so.p/.._src_parser_tokenizer.c.o -c ../../pandas/_libs/src/parser/tokenizer.c",
+    "file": "../../pandas/_libs/src/parser/tokenizer.c",
+    "output": "pandas/_libs/tslibs/parsing.cpython-311-darwin.so.p/.._src_parser_tokenizer.c.o"
+  },
+  {
+    "directory": "/Users/ckrtmshehadeh/Desktop/6b/pandaslocal/pandas-thomas/build/cp311",
+    "command": "cython -M --fast-fail -3 --include-dir /Users/ckrtmshehadeh/Desktop/6b/pandaslocal/pandas-thomas/build/cp311/pandas/_libs/tslibs '-X always_allow_keywords=true' /Users/ckrtmshehadeh/Desktop/6b/pandaslocal/pandas-thomas/pandas/_libs/tslibs/period.pyx -o pandas/_libs/tslibs/period.cpython-311-darwin.so.p/pandas/_libs/tslibs/period.pyx.c",
+    "file": "/Users/ckrtmshehadeh/Desktop/6b/pandaslocal/pandas-thomas/pandas/_libs/tslibs/period.pyx",
+    "output": "pandas/_libs/tslibs/period.cpython-311-darwin.so.p/pandas/_libs/tslibs/period.pyx.c"
+  },
+  {
+    "directory": "/Users/ckrtmshehadeh/Desktop/6b/pandaslocal/pandas-thomas/build/cp311",
+    "command": "cc -Ipandas/_libs/tslibs/period.cpython-311-darwin.so.p -Ipandas/_libs/tslibs -I../../pandas/_libs/tslibs -I../../../../../../virtualenvs/pandas-dev/lib/python3.11/site-packages/numpy/core/include -I../../pandas/_libs/include -I/Users/ckrtmshehadeh/anaconda3/include/python3.11 -fvisibility=hidden -fcolor-diagnostics -DNDEBUG -w -std=c11 -O3 -DNPY_NO_DEPRECATED_API=0 -DNPY_TARGET_VERSION=NPY_1_21_API_VERSION -MD -MQ pandas/_libs/tslibs/period.cpython-311-darwin.so.p/meson-generated_pandas__libs_tslibs_period.pyx.c.o -MF pandas/_libs/tslibs/period.cpython-311-darwin.so.p/meson-generated_pandas__libs_tslibs_period.pyx.c.o.d -o pandas/_libs/tslibs/period.cpython-311-darwin.so.p/meson-generated_pandas__libs_tslibs_period.pyx.c.o -c pandas/_libs/tslibs/period.cpython-311-darwin.so.p/pandas/_libs/tslibs/period.pyx.c",
+    "file": "pandas/_libs/tslibs/period.cpython-311-darwin.so.p/pandas/_libs/tslibs/period.pyx.c",
+    "output": "pandas/_libs/tslibs/period.cpython-311-darwin.so.p/meson-generated_pandas__libs_tslibs_period.pyx.c.o"
+  },
+  {
+    "directory": "/Users/ckrtmshehadeh/Desktop/6b/pandaslocal/pandas-thomas/build/cp311",
+    "command": "cython -M --fast-fail -3 --include-dir /Users/ckrtmshehadeh/Desktop/6b/pandaslocal/pandas-thomas/build/cp311/pandas/_libs/tslibs '-X always_allow_keywords=true' /Users/ckrtmshehadeh/Desktop/6b/pandaslocal/pandas-thomas/pandas/_libs/tslibs/strptime.pyx -o pandas/_libs/tslibs/strptime.cpython-311-darwin.so.p/pandas/_libs/tslibs/strptime.pyx.c",
+    "file": "/Users/ckrtmshehadeh/Desktop/6b/pandaslocal/pandas-thomas/pandas/_libs/tslibs/strptime.pyx",
+    "output": "pandas/_libs/tslibs/strptime.cpython-311-darwin.so.p/pandas/_libs/tslibs/strptime.pyx.c"
+  },
+  {
+    "directory": "/Users/ckrtmshehadeh/Desktop/6b/pandaslocal/pandas-thomas/build/cp311",
+    "command": "cc -Ipandas/_libs/tslibs/strptime.cpython-311-darwin.so.p -Ipandas/_libs/tslibs -I../../pandas/_libs/tslibs -I../../../../../../virtualenvs/pandas-dev/lib/python3.11/site-packages/numpy/core/include -I../../pandas/_libs/include -I/Users/ckrtmshehadeh/anaconda3/include/python3.11 -fvisibility=hidden -fcolor-diagnostics -DNDEBUG -w -std=c11 -O3 -DNPY_NO_DEPRECATED_API=0 -DNPY_TARGET_VERSION=NPY_1_21_API_VERSION -MD -MQ pandas/_libs/tslibs/strptime.cpython-311-darwin.so.p/meson-generated_pandas__libs_tslibs_strptime.pyx.c.o -MF pandas/_libs/tslibs/strptime.cpython-311-darwin.so.p/meson-generated_pandas__libs_tslibs_strptime.pyx.c.o.d -o pandas/_libs/tslibs/strptime.cpython-311-darwin.so.p/meson-generated_pandas__libs_tslibs_strptime.pyx.c.o -c pandas/_libs/tslibs/strptime.cpython-311-darwin.so.p/pandas/_libs/tslibs/strptime.pyx.c",
+    "file": "pandas/_libs/tslibs/strptime.cpython-311-darwin.so.p/pandas/_libs/tslibs/strptime.pyx.c",
+    "output": "pandas/_libs/tslibs/strptime.cpython-311-darwin.so.p/meson-generated_pandas__libs_tslibs_strptime.pyx.c.o"
+  },
+  {
+    "directory": "/Users/ckrtmshehadeh/Desktop/6b/pandaslocal/pandas-thomas/build/cp311",
+    "command": "cython -M --fast-fail -3 --include-dir /Users/ckrtmshehadeh/Desktop/6b/pandaslocal/pandas-thomas/build/cp311/pandas/_libs/tslibs '-X always_allow_keywords=true' /Users/ckrtmshehadeh/Desktop/6b/pandaslocal/pandas-thomas/pandas/_libs/tslibs/timedeltas.pyx -o pandas/_libs/tslibs/timedeltas.cpython-311-darwin.so.p/pandas/_libs/tslibs/timedeltas.pyx.c",
+    "file": "/Users/ckrtmshehadeh/Desktop/6b/pandaslocal/pandas-thomas/pandas/_libs/tslibs/timedeltas.pyx",
+    "output": "pandas/_libs/tslibs/timedeltas.cpython-311-darwin.so.p/pandas/_libs/tslibs/timedeltas.pyx.c"
+  },
+  {
+    "directory": "/Users/ckrtmshehadeh/Desktop/6b/pandaslocal/pandas-thomas/build/cp311",
+    "command": "cc -Ipandas/_libs/tslibs/timedeltas.cpython-311-darwin.so.p -Ipandas/_libs/tslibs -I../../pandas/_libs/tslibs -I../../../../../../virtualenvs/pandas-dev/lib/python3.11/site-packages/numpy/core/include -I../../pandas/_libs/include -I/Users/ckrtmshehadeh/anaconda3/include/python3.11 -fvisibility=hidden -fcolor-diagnostics -DNDEBUG -w -std=c11 -O3 -DNPY_NO_DEPRECATED_API=0 -DNPY_TARGET_VERSION=NPY_1_21_API_VERSION -MD -MQ pandas/_libs/tslibs/timedeltas.cpython-311-darwin.so.p/meson-generated_pandas__libs_tslibs_timedeltas.pyx.c.o -MF pandas/_libs/tslibs/timedeltas.cpython-311-darwin.so.p/meson-generated_pandas__libs_tslibs_timedeltas.pyx.c.o.d -o pandas/_libs/tslibs/timedeltas.cpython-311-darwin.so.p/meson-generated_pandas__libs_tslibs_timedeltas.pyx.c.o -c pandas/_libs/tslibs/timedeltas.cpython-311-darwin.so.p/pandas/_libs/tslibs/timedeltas.pyx.c",
+    "file": "pandas/_libs/tslibs/timedeltas.cpython-311-darwin.so.p/pandas/_libs/tslibs/timedeltas.pyx.c",
+    "output": "pandas/_libs/tslibs/timedeltas.cpython-311-darwin.so.p/meson-generated_pandas__libs_tslibs_timedeltas.pyx.c.o"
+  },
+  {
+    "directory": "/Users/ckrtmshehadeh/Desktop/6b/pandaslocal/pandas-thomas/build/cp311",
+    "command": "cython -M --fast-fail -3 --include-dir /Users/ckrtmshehadeh/Desktop/6b/pandaslocal/pandas-thomas/build/cp311/pandas/_libs/tslibs '-X always_allow_keywords=true' /Users/ckrtmshehadeh/Desktop/6b/pandaslocal/pandas-thomas/pandas/_libs/tslibs/timestamps.pyx -o pandas/_libs/tslibs/timestamps.cpython-311-darwin.so.p/pandas/_libs/tslibs/timestamps.pyx.c",
+    "file": "/Users/ckrtmshehadeh/Desktop/6b/pandaslocal/pandas-thomas/pandas/_libs/tslibs/timestamps.pyx",
+    "output": "pandas/_libs/tslibs/timestamps.cpython-311-darwin.so.p/pandas/_libs/tslibs/timestamps.pyx.c"
+  },
+  {
+    "directory": "/Users/ckrtmshehadeh/Desktop/6b/pandaslocal/pandas-thomas/build/cp311",
+    "command": "cc -Ipandas/_libs/tslibs/timestamps.cpython-311-darwin.so.p -Ipandas/_libs/tslibs -I../../pandas/_libs/tslibs -I../../../../../../virtualenvs/pandas-dev/lib/python3.11/site-packages/numpy/core/include -I../../pandas/_libs/include -I/Users/ckrtmshehadeh/anaconda3/include/python3.11 -fvisibility=hidden -fcolor-diagnostics -DNDEBUG -w -std=c11 -O3 -DNPY_NO_DEPRECATED_API=0 -DNPY_TARGET_VERSION=NPY_1_21_API_VERSION -MD -MQ pandas/_libs/tslibs/timestamps.cpython-311-darwin.so.p/meson-generated_pandas__libs_tslibs_timestamps.pyx.c.o -MF pandas/_libs/tslibs/timestamps.cpython-311-darwin.so.p/meson-generated_pandas__libs_tslibs_timestamps.pyx.c.o.d -o pandas/_libs/tslibs/timestamps.cpython-311-darwin.so.p/meson-generated_pandas__libs_tslibs_timestamps.pyx.c.o -c pandas/_libs/tslibs/timestamps.cpython-311-darwin.so.p/pandas/_libs/tslibs/timestamps.pyx.c",
+    "file": "pandas/_libs/tslibs/timestamps.cpython-311-darwin.so.p/pandas/_libs/tslibs/timestamps.pyx.c",
+    "output": "pandas/_libs/tslibs/timestamps.cpython-311-darwin.so.p/meson-generated_pandas__libs_tslibs_timestamps.pyx.c.o"
+  },
+  {
+    "directory": "/Users/ckrtmshehadeh/Desktop/6b/pandaslocal/pandas-thomas/build/cp311",
+    "command": "cython -M --fast-fail -3 --include-dir /Users/ckrtmshehadeh/Desktop/6b/pandaslocal/pandas-thomas/build/cp311/pandas/_libs/tslibs '-X always_allow_keywords=true' /Users/ckrtmshehadeh/Desktop/6b/pandaslocal/pandas-thomas/pandas/_libs/tslibs/timezones.pyx -o pandas/_libs/tslibs/timezones.cpython-311-darwin.so.p/pandas/_libs/tslibs/timezones.pyx.c",
+    "file": "/Users/ckrtmshehadeh/Desktop/6b/pandaslocal/pandas-thomas/pandas/_libs/tslibs/timezones.pyx",
+    "output": "pandas/_libs/tslibs/timezones.cpython-311-darwin.so.p/pandas/_libs/tslibs/timezones.pyx.c"
+  },
+  {
+    "directory": "/Users/ckrtmshehadeh/Desktop/6b/pandaslocal/pandas-thomas/build/cp311",
+    "command": "cc -Ipandas/_libs/tslibs/timezones.cpython-311-darwin.so.p -Ipandas/_libs/tslibs -I../../pandas/_libs/tslibs -I../../../../../../virtualenvs/pandas-dev/lib/python3.11/site-packages/numpy/core/include -I../../pandas/_libs/include -I/Users/ckrtmshehadeh/anaconda3/include/python3.11 -fvisibility=hidden -fcolor-diagnostics -DNDEBUG -w -std=c11 -O3 -DNPY_NO_DEPRECATED_API=0 -DNPY_TARGET_VERSION=NPY_1_21_API_VERSION -MD -MQ pandas/_libs/tslibs/timezones.cpython-311-darwin.so.p/meson-generated_pandas__libs_tslibs_timezones.pyx.c.o -MF pandas/_libs/tslibs/timezones.cpython-311-darwin.so.p/meson-generated_pandas__libs_tslibs_timezones.pyx.c.o.d -o pandas/_libs/tslibs/timezones.cpython-311-darwin.so.p/meson-generated_pandas__libs_tslibs_timezones.pyx.c.o -c pandas/_libs/tslibs/timezones.cpython-311-darwin.so.p/pandas/_libs/tslibs/timezones.pyx.c",
+    "file": "pandas/_libs/tslibs/timezones.cpython-311-darwin.so.p/pandas/_libs/tslibs/timezones.pyx.c",
+    "output": "pandas/_libs/tslibs/timezones.cpython-311-darwin.so.p/meson-generated_pandas__libs_tslibs_timezones.pyx.c.o"
+  },
+  {
+    "directory": "/Users/ckrtmshehadeh/Desktop/6b/pandaslocal/pandas-thomas/build/cp311",
+    "command": "cython -M --fast-fail -3 --include-dir /Users/ckrtmshehadeh/Desktop/6b/pandaslocal/pandas-thomas/build/cp311/pandas/_libs/tslibs '-X always_allow_keywords=true' /Users/ckrtmshehadeh/Desktop/6b/pandaslocal/pandas-thomas/pandas/_libs/tslibs/tzconversion.pyx -o pandas/_libs/tslibs/tzconversion.cpython-311-darwin.so.p/pandas/_libs/tslibs/tzconversion.pyx.c",
+    "file": "/Users/ckrtmshehadeh/Desktop/6b/pandaslocal/pandas-thomas/pandas/_libs/tslibs/tzconversion.pyx",
+    "output": "pandas/_libs/tslibs/tzconversion.cpython-311-darwin.so.p/pandas/_libs/tslibs/tzconversion.pyx.c"
+  },
+  {
+    "directory": "/Users/ckrtmshehadeh/Desktop/6b/pandaslocal/pandas-thomas/build/cp311",
+    "command": "cc -Ipandas/_libs/tslibs/tzconversion.cpython-311-darwin.so.p -Ipandas/_libs/tslibs -I../../pandas/_libs/tslibs -I../../../../../../virtualenvs/pandas-dev/lib/python3.11/site-packages/numpy/core/include -I../../pandas/_libs/include -I/Users/ckrtmshehadeh/anaconda3/include/python3.11 -fvisibility=hidden -fcolor-diagnostics -DNDEBUG -w -std=c11 -O3 -DNPY_NO_DEPRECATED_API=0 -DNPY_TARGET_VERSION=NPY_1_21_API_VERSION -MD -MQ pandas/_libs/tslibs/tzconversion.cpython-311-darwin.so.p/meson-generated_pandas__libs_tslibs_tzconversion.pyx.c.o -MF pandas/_libs/tslibs/tzconversion.cpython-311-darwin.so.p/meson-generated_pandas__libs_tslibs_tzconversion.pyx.c.o.d -o pandas/_libs/tslibs/tzconversion.cpython-311-darwin.so.p/meson-generated_pandas__libs_tslibs_tzconversion.pyx.c.o -c pandas/_libs/tslibs/tzconversion.cpython-311-darwin.so.p/pandas/_libs/tslibs/tzconversion.pyx.c",
+    "file": "pandas/_libs/tslibs/tzconversion.cpython-311-darwin.so.p/pandas/_libs/tslibs/tzconversion.pyx.c",
+    "output": "pandas/_libs/tslibs/tzconversion.cpython-311-darwin.so.p/meson-generated_pandas__libs_tslibs_tzconversion.pyx.c.o"
+  },
+  {
+    "directory": "/Users/ckrtmshehadeh/Desktop/6b/pandaslocal/pandas-thomas/build/cp311",
+    "command": "cython -M --fast-fail -3 --include-dir /Users/ckrtmshehadeh/Desktop/6b/pandaslocal/pandas-thomas/build/cp311/pandas/_libs/tslibs '-X always_allow_keywords=true' /Users/ckrtmshehadeh/Desktop/6b/pandaslocal/pandas-thomas/pandas/_libs/tslibs/vectorized.pyx -o pandas/_libs/tslibs/vectorized.cpython-311-darwin.so.p/pandas/_libs/tslibs/vectorized.pyx.c",
+    "file": "/Users/ckrtmshehadeh/Desktop/6b/pandaslocal/pandas-thomas/pandas/_libs/tslibs/vectorized.pyx",
+    "output": "pandas/_libs/tslibs/vectorized.cpython-311-darwin.so.p/pandas/_libs/tslibs/vectorized.pyx.c"
+  },
+  {
+    "directory": "/Users/ckrtmshehadeh/Desktop/6b/pandaslocal/pandas-thomas/build/cp311",
+    "command": "cc -Ipandas/_libs/tslibs/vectorized.cpython-311-darwin.so.p -Ipandas/_libs/tslibs -I../../pandas/_libs/tslibs -I../../../../../../virtualenvs/pandas-dev/lib/python3.11/site-packages/numpy/core/include -I../../pandas/_libs/include -I/Users/ckrtmshehadeh/anaconda3/include/python3.11 -fvisibility=hidden -fcolor-diagnostics -DNDEBUG -w -std=c11 -O3 -DNPY_NO_DEPRECATED_API=0 -DNPY_TARGET_VERSION=NPY_1_21_API_VERSION -MD -MQ pandas/_libs/tslibs/vectorized.cpython-311-darwin.so.p/meson-generated_pandas__libs_tslibs_vectorized.pyx.c.o -MF pandas/_libs/tslibs/vectorized.cpython-311-darwin.so.p/meson-generated_pandas__libs_tslibs_vectorized.pyx.c.o.d -o pandas/_libs/tslibs/vectorized.cpython-311-darwin.so.p/meson-generated_pandas__libs_tslibs_vectorized.pyx.c.o -c pandas/_libs/tslibs/vectorized.cpython-311-darwin.so.p/pandas/_libs/tslibs/vectorized.pyx.c",
+    "file": "pandas/_libs/tslibs/vectorized.cpython-311-darwin.so.p/pandas/_libs/tslibs/vectorized.pyx.c",
+    "output": "pandas/_libs/tslibs/vectorized.cpython-311-darwin.so.p/meson-generated_pandas__libs_tslibs_vectorized.pyx.c.o"
+  },
+  {
+    "directory": "/Users/ckrtmshehadeh/Desktop/6b/pandaslocal/pandas-thomas/build/cp311",
+    "command": "cython -M --fast-fail -3 --include-dir /Users/ckrtmshehadeh/Desktop/6b/pandaslocal/pandas-thomas/build/cp311/pandas/_libs '-X always_allow_keywords=true' /Users/ckrtmshehadeh/Desktop/6b/pandaslocal/pandas-thomas/pandas/_libs/algos.pyx -o pandas/_libs/algos.cpython-311-darwin.so.p/pandas/_libs/algos.pyx.c",
+    "file": "/Users/ckrtmshehadeh/Desktop/6b/pandaslocal/pandas-thomas/pandas/_libs/algos.pyx",
+    "output": "pandas/_libs/algos.cpython-311-darwin.so.p/pandas/_libs/algos.pyx.c"
+  },
+  {
+    "directory": "/Users/ckrtmshehadeh/Desktop/6b/pandaslocal/pandas-thomas/build/cp311",
+    "command": "cc -Ipandas/_libs/algos.cpython-311-darwin.so.p -Ipandas/_libs -I../../pandas/_libs -I../../../../../../virtualenvs/pandas-dev/lib/python3.11/site-packages/numpy/core/include -I../../pandas/_libs/include -I/Users/ckrtmshehadeh/anaconda3/include/python3.11 -fvisibility=hidden -fcolor-diagnostics -DNDEBUG -w -std=c11 -O3 -DNPY_NO_DEPRECATED_API=0 -DNPY_TARGET_VERSION=NPY_1_21_API_VERSION -MD -MQ pandas/_libs/algos.cpython-311-darwin.so.p/meson-generated_pandas__libs_algos.pyx.c.o -MF pandas/_libs/algos.cpython-311-darwin.so.p/meson-generated_pandas__libs_algos.pyx.c.o.d -o pandas/_libs/algos.cpython-311-darwin.so.p/meson-generated_pandas__libs_algos.pyx.c.o -c pandas/_libs/algos.cpython-311-darwin.so.p/pandas/_libs/algos.pyx.c",
+    "file": "pandas/_libs/algos.cpython-311-darwin.so.p/pandas/_libs/algos.pyx.c",
+    "output": "pandas/_libs/algos.cpython-311-darwin.so.p/meson-generated_pandas__libs_algos.pyx.c.o"
+  },
+  {
+    "directory": "/Users/ckrtmshehadeh/Desktop/6b/pandaslocal/pandas-thomas/build/cp311",
+    "command": "cython -M --fast-fail -3 --include-dir /Users/ckrtmshehadeh/Desktop/6b/pandaslocal/pandas-thomas/build/cp311/pandas/_libs '-X always_allow_keywords=true' /Users/ckrtmshehadeh/Desktop/6b/pandaslocal/pandas-thomas/pandas/_libs/arrays.pyx -o pandas/_libs/arrays.cpython-311-darwin.so.p/pandas/_libs/arrays.pyx.c",
+    "file": "/Users/ckrtmshehadeh/Desktop/6b/pandaslocal/pandas-thomas/pandas/_libs/arrays.pyx",
+    "output": "pandas/_libs/arrays.cpython-311-darwin.so.p/pandas/_libs/arrays.pyx.c"
+  },
+  {
+    "directory": "/Users/ckrtmshehadeh/Desktop/6b/pandaslocal/pandas-thomas/build/cp311",
+    "command": "cc -Ipandas/_libs/arrays.cpython-311-darwin.so.p -Ipandas/_libs -I../../pandas/_libs -I../../../../../../virtualenvs/pandas-dev/lib/python3.11/site-packages/numpy/core/include -I../../pandas/_libs/include -I/Users/ckrtmshehadeh/anaconda3/include/python3.11 -fvisibility=hidden -fcolor-diagnostics -DNDEBUG -w -std=c11 -O3 -DNPY_NO_DEPRECATED_API=0 -DNPY_TARGET_VERSION=NPY_1_21_API_VERSION -MD -MQ pandas/_libs/arrays.cpython-311-darwin.so.p/meson-generated_pandas__libs_arrays.pyx.c.o -MF pandas/_libs/arrays.cpython-311-darwin.so.p/meson-generated_pandas__libs_arrays.pyx.c.o.d -o pandas/_libs/arrays.cpython-311-darwin.so.p/meson-generated_pandas__libs_arrays.pyx.c.o -c pandas/_libs/arrays.cpython-311-darwin.so.p/pandas/_libs/arrays.pyx.c",
+    "file": "pandas/_libs/arrays.cpython-311-darwin.so.p/pandas/_libs/arrays.pyx.c",
+    "output": "pandas/_libs/arrays.cpython-311-darwin.so.p/meson-generated_pandas__libs_arrays.pyx.c.o"
+  },
+  {
+    "directory": "/Users/ckrtmshehadeh/Desktop/6b/pandaslocal/pandas-thomas/build/cp311",
+    "command": "cython -M --fast-fail -3 --include-dir /Users/ckrtmshehadeh/Desktop/6b/pandaslocal/pandas-thomas/build/cp311/pandas/_libs '-X always_allow_keywords=true' /Users/ckrtmshehadeh/Desktop/6b/pandaslocal/pandas-thomas/pandas/_libs/groupby.pyx -o pandas/_libs/groupby.cpython-311-darwin.so.p/pandas/_libs/groupby.pyx.c",
+    "file": "/Users/ckrtmshehadeh/Desktop/6b/pandaslocal/pandas-thomas/pandas/_libs/groupby.pyx",
+    "output": "pandas/_libs/groupby.cpython-311-darwin.so.p/pandas/_libs/groupby.pyx.c"
+  },
+  {
+    "directory": "/Users/ckrtmshehadeh/Desktop/6b/pandaslocal/pandas-thomas/build/cp311",
+    "command": "cc -Ipandas/_libs/groupby.cpython-311-darwin.so.p -Ipandas/_libs -I../../pandas/_libs -I../../../../../../virtualenvs/pandas-dev/lib/python3.11/site-packages/numpy/core/include -I../../pandas/_libs/include -I/Users/ckrtmshehadeh/anaconda3/include/python3.11 -fvisibility=hidden -fcolor-diagnostics -DNDEBUG -w -std=c11 -O3 -DNPY_NO_DEPRECATED_API=0 -DNPY_TARGET_VERSION=NPY_1_21_API_VERSION -MD -MQ pandas/_libs/groupby.cpython-311-darwin.so.p/meson-generated_pandas__libs_groupby.pyx.c.o -MF pandas/_libs/groupby.cpython-311-darwin.so.p/meson-generated_pandas__libs_groupby.pyx.c.o.d -o pandas/_libs/groupby.cpython-311-darwin.so.p/meson-generated_pandas__libs_groupby.pyx.c.o -c pandas/_libs/groupby.cpython-311-darwin.so.p/pandas/_libs/groupby.pyx.c",
+    "file": "pandas/_libs/groupby.cpython-311-darwin.so.p/pandas/_libs/groupby.pyx.c",
+    "output": "pandas/_libs/groupby.cpython-311-darwin.so.p/meson-generated_pandas__libs_groupby.pyx.c.o"
+  },
+  {
+    "directory": "/Users/ckrtmshehadeh/Desktop/6b/pandaslocal/pandas-thomas/build/cp311",
+    "command": "cython -M --fast-fail -3 --include-dir /Users/ckrtmshehadeh/Desktop/6b/pandaslocal/pandas-thomas/build/cp311/pandas/_libs '-X always_allow_keywords=true' /Users/ckrtmshehadeh/Desktop/6b/pandaslocal/pandas-thomas/pandas/_libs/hashing.pyx -o pandas/_libs/hashing.cpython-311-darwin.so.p/pandas/_libs/hashing.pyx.c",
+    "file": "/Users/ckrtmshehadeh/Desktop/6b/pandaslocal/pandas-thomas/pandas/_libs/hashing.pyx",
+    "output": "pandas/_libs/hashing.cpython-311-darwin.so.p/pandas/_libs/hashing.pyx.c"
+  },
+  {
+    "directory": "/Users/ckrtmshehadeh/Desktop/6b/pandaslocal/pandas-thomas/build/cp311",
+    "command": "cc -Ipandas/_libs/hashing.cpython-311-darwin.so.p -Ipandas/_libs -I../../pandas/_libs -I../../../../../../virtualenvs/pandas-dev/lib/python3.11/site-packages/numpy/core/include -I../../pandas/_libs/include -I/Users/ckrtmshehadeh/anaconda3/include/python3.11 -fvisibility=hidden -fcolor-diagnostics -DNDEBUG -w -std=c11 -O3 -DNPY_NO_DEPRECATED_API=0 -DNPY_TARGET_VERSION=NPY_1_21_API_VERSION -MD -MQ pandas/_libs/hashing.cpython-311-darwin.so.p/meson-generated_pandas__libs_hashing.pyx.c.o -MF pandas/_libs/hashing.cpython-311-darwin.so.p/meson-generated_pandas__libs_hashing.pyx.c.o.d -o pandas/_libs/hashing.cpython-311-darwin.so.p/meson-generated_pandas__libs_hashing.pyx.c.o -c pandas/_libs/hashing.cpython-311-darwin.so.p/pandas/_libs/hashing.pyx.c",
+    "file": "pandas/_libs/hashing.cpython-311-darwin.so.p/pandas/_libs/hashing.pyx.c",
+    "output": "pandas/_libs/hashing.cpython-311-darwin.so.p/meson-generated_pandas__libs_hashing.pyx.c.o"
+  },
+  {
+    "directory": "/Users/ckrtmshehadeh/Desktop/6b/pandaslocal/pandas-thomas/build/cp311",
+    "command": "cython -M --fast-fail -3 --include-dir /Users/ckrtmshehadeh/Desktop/6b/pandaslocal/pandas-thomas/build/cp311/pandas/_libs '-X always_allow_keywords=true' /Users/ckrtmshehadeh/Desktop/6b/pandaslocal/pandas-thomas/pandas/_libs/hashtable.pyx -o pandas/_libs/hashtable.cpython-311-darwin.so.p/pandas/_libs/hashtable.pyx.c",
+    "file": "/Users/ckrtmshehadeh/Desktop/6b/pandaslocal/pandas-thomas/pandas/_libs/hashtable.pyx",
+    "output": "pandas/_libs/hashtable.cpython-311-darwin.so.p/pandas/_libs/hashtable.pyx.c"
+  },
+  {
+    "directory": "/Users/ckrtmshehadeh/Desktop/6b/pandaslocal/pandas-thomas/build/cp311",
+    "command": "cc -Ipandas/_libs/hashtable.cpython-311-darwin.so.p -Ipandas/_libs -I../../pandas/_libs -I../../../../../../virtualenvs/pandas-dev/lib/python3.11/site-packages/numpy/core/include -I../../pandas/_libs/include -I/Users/ckrtmshehadeh/anaconda3/include/python3.11 -fvisibility=hidden -fcolor-diagnostics -DNDEBUG -w -std=c11 -O3 -DNPY_NO_DEPRECATED_API=0 -DNPY_TARGET_VERSION=NPY_1_21_API_VERSION -MD -MQ pandas/_libs/hashtable.cpython-311-darwin.so.p/meson-generated_pandas__libs_hashtable.pyx.c.o -MF pandas/_libs/hashtable.cpython-311-darwin.so.p/meson-generated_pandas__libs_hashtable.pyx.c.o.d -o pandas/_libs/hashtable.cpython-311-darwin.so.p/meson-generated_pandas__libs_hashtable.pyx.c.o -c pandas/_libs/hashtable.cpython-311-darwin.so.p/pandas/_libs/hashtable.pyx.c",
+    "file": "pandas/_libs/hashtable.cpython-311-darwin.so.p/pandas/_libs/hashtable.pyx.c",
+    "output": "pandas/_libs/hashtable.cpython-311-darwin.so.p/meson-generated_pandas__libs_hashtable.pyx.c.o"
+  },
+  {
+    "directory": "/Users/ckrtmshehadeh/Desktop/6b/pandaslocal/pandas-thomas/build/cp311",
+    "command": "cython -M --fast-fail -3 --include-dir /Users/ckrtmshehadeh/Desktop/6b/pandaslocal/pandas-thomas/build/cp311/pandas/_libs '-X always_allow_keywords=true' /Users/ckrtmshehadeh/Desktop/6b/pandaslocal/pandas-thomas/pandas/_libs/index.pyx -o pandas/_libs/index.cpython-311-darwin.so.p/pandas/_libs/index.pyx.c",
+    "file": "/Users/ckrtmshehadeh/Desktop/6b/pandaslocal/pandas-thomas/pandas/_libs/index.pyx",
+    "output": "pandas/_libs/index.cpython-311-darwin.so.p/pandas/_libs/index.pyx.c"
+  },
+  {
+    "directory": "/Users/ckrtmshehadeh/Desktop/6b/pandaslocal/pandas-thomas/build/cp311",
+    "command": "cc -Ipandas/_libs/index.cpython-311-darwin.so.p -Ipandas/_libs -I../../pandas/_libs -I../../../../../../virtualenvs/pandas-dev/lib/python3.11/site-packages/numpy/core/include -I../../pandas/_libs/include -I/Users/ckrtmshehadeh/anaconda3/include/python3.11 -fvisibility=hidden -fcolor-diagnostics -DNDEBUG -w -std=c11 -O3 -DNPY_NO_DEPRECATED_API=0 -DNPY_TARGET_VERSION=NPY_1_21_API_VERSION -MD -MQ pandas/_libs/index.cpython-311-darwin.so.p/meson-generated_pandas__libs_index.pyx.c.o -MF pandas/_libs/index.cpython-311-darwin.so.p/meson-generated_pandas__libs_index.pyx.c.o.d -o pandas/_libs/index.cpython-311-darwin.so.p/meson-generated_pandas__libs_index.pyx.c.o -c pandas/_libs/index.cpython-311-darwin.so.p/pandas/_libs/index.pyx.c",
+    "file": "pandas/_libs/index.cpython-311-darwin.so.p/pandas/_libs/index.pyx.c",
+    "output": "pandas/_libs/index.cpython-311-darwin.so.p/meson-generated_pandas__libs_index.pyx.c.o"
+  },
+  {
+    "directory": "/Users/ckrtmshehadeh/Desktop/6b/pandaslocal/pandas-thomas/build/cp311",
+    "command": "cython -M --fast-fail -3 --include-dir /Users/ckrtmshehadeh/Desktop/6b/pandaslocal/pandas-thomas/build/cp311/pandas/_libs '-X always_allow_keywords=true' /Users/ckrtmshehadeh/Desktop/6b/pandaslocal/pandas-thomas/pandas/_libs/indexing.pyx -o pandas/_libs/indexing.cpython-311-darwin.so.p/pandas/_libs/indexing.pyx.c",
+    "file": "/Users/ckrtmshehadeh/Desktop/6b/pandaslocal/pandas-thomas/pandas/_libs/indexing.pyx",
+    "output": "pandas/_libs/indexing.cpython-311-darwin.so.p/pandas/_libs/indexing.pyx.c"
+  },
+  {
+    "directory": "/Users/ckrtmshehadeh/Desktop/6b/pandaslocal/pandas-thomas/build/cp311",
+    "command": "cc -Ipandas/_libs/indexing.cpython-311-darwin.so.p -Ipandas/_libs -I../../pandas/_libs -I../../../../../../virtualenvs/pandas-dev/lib/python3.11/site-packages/numpy/core/include -I../../pandas/_libs/include -I/Users/ckrtmshehadeh/anaconda3/include/python3.11 -fvisibility=hidden -fcolor-diagnostics -DNDEBUG -w -std=c11 -O3 -DNPY_NO_DEPRECATED_API=0 -DNPY_TARGET_VERSION=NPY_1_21_API_VERSION -MD -MQ pandas/_libs/indexing.cpython-311-darwin.so.p/meson-generated_pandas__libs_indexing.pyx.c.o -MF pandas/_libs/indexing.cpython-311-darwin.so.p/meson-generated_pandas__libs_indexing.pyx.c.o.d -o pandas/_libs/indexing.cpython-311-darwin.so.p/meson-generated_pandas__libs_indexing.pyx.c.o -c pandas/_libs/indexing.cpython-311-darwin.so.p/pandas/_libs/indexing.pyx.c",
+    "file": "pandas/_libs/indexing.cpython-311-darwin.so.p/pandas/_libs/indexing.pyx.c",
+    "output": "pandas/_libs/indexing.cpython-311-darwin.so.p/meson-generated_pandas__libs_indexing.pyx.c.o"
+  },
+  {
+    "directory": "/Users/ckrtmshehadeh/Desktop/6b/pandaslocal/pandas-thomas/build/cp311",
+    "command": "cython -M --fast-fail -3 --include-dir /Users/ckrtmshehadeh/Desktop/6b/pandaslocal/pandas-thomas/build/cp311/pandas/_libs '-X always_allow_keywords=true' /Users/ckrtmshehadeh/Desktop/6b/pandaslocal/pandas-thomas/pandas/_libs/internals.pyx -o pandas/_libs/internals.cpython-311-darwin.so.p/pandas/_libs/internals.pyx.c",
+    "file": "/Users/ckrtmshehadeh/Desktop/6b/pandaslocal/pandas-thomas/pandas/_libs/internals.pyx",
+    "output": "pandas/_libs/internals.cpython-311-darwin.so.p/pandas/_libs/internals.pyx.c"
+  },
+  {
+    "directory": "/Users/ckrtmshehadeh/Desktop/6b/pandaslocal/pandas-thomas/build/cp311",
+    "command": "cc -Ipandas/_libs/internals.cpython-311-darwin.so.p -Ipandas/_libs -I../../pandas/_libs -I../../../../../../virtualenvs/pandas-dev/lib/python3.11/site-packages/numpy/core/include -I../../pandas/_libs/include -I/Users/ckrtmshehadeh/anaconda3/include/python3.11 -fvisibility=hidden -fcolor-diagnostics -DNDEBUG -w -std=c11 -O3 -DNPY_NO_DEPRECATED_API=0 -DNPY_TARGET_VERSION=NPY_1_21_API_VERSION -MD -MQ pandas/_libs/internals.cpython-311-darwin.so.p/meson-generated_pandas__libs_internals.pyx.c.o -MF pandas/_libs/internals.cpython-311-darwin.so.p/meson-generated_pandas__libs_internals.pyx.c.o.d -o pandas/_libs/internals.cpython-311-darwin.so.p/meson-generated_pandas__libs_internals.pyx.c.o -c pandas/_libs/internals.cpython-311-darwin.so.p/pandas/_libs/internals.pyx.c",
+    "file": "pandas/_libs/internals.cpython-311-darwin.so.p/pandas/_libs/internals.pyx.c",
+    "output": "pandas/_libs/internals.cpython-311-darwin.so.p/meson-generated_pandas__libs_internals.pyx.c.o"
+  },
+  {
+    "directory": "/Users/ckrtmshehadeh/Desktop/6b/pandaslocal/pandas-thomas/build/cp311",
+    "command": "cython -M --fast-fail -3 --include-dir /Users/ckrtmshehadeh/Desktop/6b/pandaslocal/pandas-thomas/build/cp311/pandas/_libs '-X always_allow_keywords=true' /Users/ckrtmshehadeh/Desktop/6b/pandaslocal/pandas-thomas/pandas/_libs/interval.pyx -o pandas/_libs/interval.cpython-311-darwin.so.p/pandas/_libs/interval.pyx.c",
+    "file": "/Users/ckrtmshehadeh/Desktop/6b/pandaslocal/pandas-thomas/pandas/_libs/interval.pyx",
+    "output": "pandas/_libs/interval.cpython-311-darwin.so.p/pandas/_libs/interval.pyx.c"
+  },
+  {
+    "directory": "/Users/ckrtmshehadeh/Desktop/6b/pandaslocal/pandas-thomas/build/cp311",
+    "command": "cc -Ipandas/_libs/interval.cpython-311-darwin.so.p -Ipandas/_libs -I../../pandas/_libs -I../../../../../../virtualenvs/pandas-dev/lib/python3.11/site-packages/numpy/core/include -I../../pandas/_libs/include -I/Users/ckrtmshehadeh/anaconda3/include/python3.11 -fvisibility=hidden -fcolor-diagnostics -DNDEBUG -w -std=c11 -O3 -DNPY_NO_DEPRECATED_API=0 -DNPY_TARGET_VERSION=NPY_1_21_API_VERSION -MD -MQ pandas/_libs/interval.cpython-311-darwin.so.p/meson-generated_pandas__libs_interval.pyx.c.o -MF pandas/_libs/interval.cpython-311-darwin.so.p/meson-generated_pandas__libs_interval.pyx.c.o.d -o pandas/_libs/interval.cpython-311-darwin.so.p/meson-generated_pandas__libs_interval.pyx.c.o -c pandas/_libs/interval.cpython-311-darwin.so.p/pandas/_libs/interval.pyx.c",
+    "file": "pandas/_libs/interval.cpython-311-darwin.so.p/pandas/_libs/interval.pyx.c",
+    "output": "pandas/_libs/interval.cpython-311-darwin.so.p/meson-generated_pandas__libs_interval.pyx.c.o"
+  },
+  {
+    "directory": "/Users/ckrtmshehadeh/Desktop/6b/pandaslocal/pandas-thomas/build/cp311",
+    "command": "cython -M --fast-fail -3 --include-dir /Users/ckrtmshehadeh/Desktop/6b/pandaslocal/pandas-thomas/build/cp311/pandas/_libs '-X always_allow_keywords=true' /Users/ckrtmshehadeh/Desktop/6b/pandaslocal/pandas-thomas/pandas/_libs/join.pyx -o pandas/_libs/join.cpython-311-darwin.so.p/pandas/_libs/join.pyx.c",
+    "file": "/Users/ckrtmshehadeh/Desktop/6b/pandaslocal/pandas-thomas/pandas/_libs/join.pyx",
+    "output": "pandas/_libs/join.cpython-311-darwin.so.p/pandas/_libs/join.pyx.c"
+  },
+  {
+    "directory": "/Users/ckrtmshehadeh/Desktop/6b/pandaslocal/pandas-thomas/build/cp311",
+    "command": "cc -Ipandas/_libs/join.cpython-311-darwin.so.p -Ipandas/_libs -I../../pandas/_libs -I../../../../../../virtualenvs/pandas-dev/lib/python3.11/site-packages/numpy/core/include -I../../pandas/_libs/include -I/Users/ckrtmshehadeh/anaconda3/include/python3.11 -fvisibility=hidden -fcolor-diagnostics -DNDEBUG -w -std=c11 -O3 -DNPY_NO_DEPRECATED_API=0 -DNPY_TARGET_VERSION=NPY_1_21_API_VERSION -MD -MQ pandas/_libs/join.cpython-311-darwin.so.p/meson-generated_pandas__libs_join.pyx.c.o -MF pandas/_libs/join.cpython-311-darwin.so.p/meson-generated_pandas__libs_join.pyx.c.o.d -o pandas/_libs/join.cpython-311-darwin.so.p/meson-generated_pandas__libs_join.pyx.c.o -c pandas/_libs/join.cpython-311-darwin.so.p/pandas/_libs/join.pyx.c",
+    "file": "pandas/_libs/join.cpython-311-darwin.so.p/pandas/_libs/join.pyx.c",
+    "output": "pandas/_libs/join.cpython-311-darwin.so.p/meson-generated_pandas__libs_join.pyx.c.o"
+  },
+  {
+    "directory": "/Users/ckrtmshehadeh/Desktop/6b/pandaslocal/pandas-thomas/build/cp311",
+    "command": "cython -M --fast-fail -3 --include-dir /Users/ckrtmshehadeh/Desktop/6b/pandaslocal/pandas-thomas/build/cp311/pandas/_libs '-X always_allow_keywords=true' /Users/ckrtmshehadeh/Desktop/6b/pandaslocal/pandas-thomas/pandas/_libs/lib.pyx -o pandas/_libs/lib.cpython-311-darwin.so.p/pandas/_libs/lib.pyx.c",
+    "file": "/Users/ckrtmshehadeh/Desktop/6b/pandaslocal/pandas-thomas/pandas/_libs/lib.pyx",
+    "output": "pandas/_libs/lib.cpython-311-darwin.so.p/pandas/_libs/lib.pyx.c"
+  },
+  {
+    "directory": "/Users/ckrtmshehadeh/Desktop/6b/pandaslocal/pandas-thomas/build/cp311",
+    "command": "cc -Ipandas/_libs/lib.cpython-311-darwin.so.p -Ipandas/_libs -I../../pandas/_libs -I../../../../../../virtualenvs/pandas-dev/lib/python3.11/site-packages/numpy/core/include -I../../pandas/_libs/include -I/Users/ckrtmshehadeh/anaconda3/include/python3.11 -fvisibility=hidden -fcolor-diagnostics -DNDEBUG -w -std=c11 -O3 -DNPY_NO_DEPRECATED_API=0 -DNPY_TARGET_VERSION=NPY_1_21_API_VERSION -MD -MQ pandas/_libs/lib.cpython-311-darwin.so.p/meson-generated_pandas__libs_lib.pyx.c.o -MF pandas/_libs/lib.cpython-311-darwin.so.p/meson-generated_pandas__libs_lib.pyx.c.o.d -o pandas/_libs/lib.cpython-311-darwin.so.p/meson-generated_pandas__libs_lib.pyx.c.o -c pandas/_libs/lib.cpython-311-darwin.so.p/pandas/_libs/lib.pyx.c",
+    "file": "pandas/_libs/lib.cpython-311-darwin.so.p/pandas/_libs/lib.pyx.c",
+    "output": "pandas/_libs/lib.cpython-311-darwin.so.p/meson-generated_pandas__libs_lib.pyx.c.o"
+  },
+  {
+    "directory": "/Users/ckrtmshehadeh/Desktop/6b/pandaslocal/pandas-thomas/build/cp311",
+    "command": "cc -Ipandas/_libs/lib.cpython-311-darwin.so.p -Ipandas/_libs -I../../pandas/_libs -I../../../../../../virtualenvs/pandas-dev/lib/python3.11/site-packages/numpy/core/include -I../../pandas/_libs/include -I/Users/ckrtmshehadeh/anaconda3/include/python3.11 -fvisibility=hidden -fcolor-diagnostics -DNDEBUG -Wall -Winvalid-pch -std=c11 -O3 -DNPY_NO_DEPRECATED_API=0 -DNPY_TARGET_VERSION=NPY_1_21_API_VERSION -MD -MQ pandas/_libs/lib.cpython-311-darwin.so.p/src_parser_tokenizer.c.o -MF pandas/_libs/lib.cpython-311-darwin.so.p/src_parser_tokenizer.c.o.d -o pandas/_libs/lib.cpython-311-darwin.so.p/src_parser_tokenizer.c.o -c ../../pandas/_libs/src/parser/tokenizer.c",
+    "file": "../../pandas/_libs/src/parser/tokenizer.c",
+    "output": "pandas/_libs/lib.cpython-311-darwin.so.p/src_parser_tokenizer.c.o"
+  },
+  {
+    "directory": "/Users/ckrtmshehadeh/Desktop/6b/pandaslocal/pandas-thomas/build/cp311",
+    "command": "cython -M --fast-fail -3 --include-dir /Users/ckrtmshehadeh/Desktop/6b/pandaslocal/pandas-thomas/build/cp311/pandas/_libs '-X always_allow_keywords=true' /Users/ckrtmshehadeh/Desktop/6b/pandaslocal/pandas-thomas/pandas/_libs/missing.pyx -o pandas/_libs/missing.cpython-311-darwin.so.p/pandas/_libs/missing.pyx.c",
+    "file": "/Users/ckrtmshehadeh/Desktop/6b/pandaslocal/pandas-thomas/pandas/_libs/missing.pyx",
+    "output": "pandas/_libs/missing.cpython-311-darwin.so.p/pandas/_libs/missing.pyx.c"
+  },
+  {
+    "directory": "/Users/ckrtmshehadeh/Desktop/6b/pandaslocal/pandas-thomas/build/cp311",
+    "command": "cc -Ipandas/_libs/missing.cpython-311-darwin.so.p -Ipandas/_libs -I../../pandas/_libs -I../../../../../../virtualenvs/pandas-dev/lib/python3.11/site-packages/numpy/core/include -I../../pandas/_libs/include -I/Users/ckrtmshehadeh/anaconda3/include/python3.11 -fvisibility=hidden -fcolor-diagnostics -DNDEBUG -w -std=c11 -O3 -DNPY_NO_DEPRECATED_API=0 -DNPY_TARGET_VERSION=NPY_1_21_API_VERSION -MD -MQ pandas/_libs/missing.cpython-311-darwin.so.p/meson-generated_pandas__libs_missing.pyx.c.o -MF pandas/_libs/missing.cpython-311-darwin.so.p/meson-generated_pandas__libs_missing.pyx.c.o.d -o pandas/_libs/missing.cpython-311-darwin.so.p/meson-generated_pandas__libs_missing.pyx.c.o -c pandas/_libs/missing.cpython-311-darwin.so.p/pandas/_libs/missing.pyx.c",
+    "file": "pandas/_libs/missing.cpython-311-darwin.so.p/pandas/_libs/missing.pyx.c",
+    "output": "pandas/_libs/missing.cpython-311-darwin.so.p/meson-generated_pandas__libs_missing.pyx.c.o"
+  },
+  {
+    "directory": "/Users/ckrtmshehadeh/Desktop/6b/pandaslocal/pandas-thomas/build/cp311",
+    "command": "cc -Ipandas/_libs/pandas_datetime.cpython-311-darwin.so.p -Ipandas/_libs -I../../pandas/_libs -I../../../../../../virtualenvs/pandas-dev/lib/python3.11/site-packages/numpy/core/include -I../../pandas/_libs/include -I/Users/ckrtmshehadeh/anaconda3/include/python3.11 -fvisibility=hidden -fcolor-diagnostics -DNDEBUG -Wall -Winvalid-pch -std=c11 -O3 -DNPY_NO_DEPRECATED_API=0 -DNPY_TARGET_VERSION=NPY_1_21_API_VERSION -MD -MQ pandas/_libs/pandas_datetime.cpython-311-darwin.so.p/src_vendored_numpy_datetime_np_datetime.c.o -MF pandas/_libs/pandas_datetime.cpython-311-darwin.so.p/src_vendored_numpy_datetime_np_datetime.c.o.d -o pandas/_libs/pandas_datetime.cpython-311-darwin.so.p/src_vendored_numpy_datetime_np_datetime.c.o -c ../../pandas/_libs/src/vendored/numpy/datetime/np_datetime.c",
+    "file": "../../pandas/_libs/src/vendored/numpy/datetime/np_datetime.c",
+    "output": "pandas/_libs/pandas_datetime.cpython-311-darwin.so.p/src_vendored_numpy_datetime_np_datetime.c.o"
+  },
+  {
+    "directory": "/Users/ckrtmshehadeh/Desktop/6b/pandaslocal/pandas-thomas/build/cp311",
+    "command": "cc -Ipandas/_libs/pandas_datetime.cpython-311-darwin.so.p -Ipandas/_libs -I../../pandas/_libs -I../../../../../../virtualenvs/pandas-dev/lib/python3.11/site-packages/numpy/core/include -I../../pandas/_libs/include -I/Users/ckrtmshehadeh/anaconda3/include/python3.11 -fvisibility=hidden -fcolor-diagnostics -DNDEBUG -Wall -Winvalid-pch -std=c11 -O3 -DNPY_NO_DEPRECATED_API=0 -DNPY_TARGET_VERSION=NPY_1_21_API_VERSION -MD -MQ pandas/_libs/pandas_datetime.cpython-311-darwin.so.p/src_vendored_numpy_datetime_np_datetime_strings.c.o -MF pandas/_libs/pandas_datetime.cpython-311-darwin.so.p/src_vendored_numpy_datetime_np_datetime_strings.c.o.d -o pandas/_libs/pandas_datetime.cpython-311-darwin.so.p/src_vendored_numpy_datetime_np_datetime_strings.c.o -c ../../pandas/_libs/src/vendored/numpy/datetime/np_datetime_strings.c",
+    "file": "../../pandas/_libs/src/vendored/numpy/datetime/np_datetime_strings.c",
+    "output": "pandas/_libs/pandas_datetime.cpython-311-darwin.so.p/src_vendored_numpy_datetime_np_datetime_strings.c.o"
+  },
+  {
+    "directory": "/Users/ckrtmshehadeh/Desktop/6b/pandaslocal/pandas-thomas/build/cp311",
+    "command": "cc -Ipandas/_libs/pandas_datetime.cpython-311-darwin.so.p -Ipandas/_libs -I../../pandas/_libs -I../../../../../../virtualenvs/pandas-dev/lib/python3.11/site-packages/numpy/core/include -I../../pandas/_libs/include -I/Users/ckrtmshehadeh/anaconda3/include/python3.11 -fvisibility=hidden -fcolor-diagnostics -DNDEBUG -Wall -Winvalid-pch -std=c11 -O3 -DNPY_NO_DEPRECATED_API=0 -DNPY_TARGET_VERSION=NPY_1_21_API_VERSION -MD -MQ pandas/_libs/pandas_datetime.cpython-311-darwin.so.p/src_datetime_date_conversions.c.o -MF pandas/_libs/pandas_datetime.cpython-311-darwin.so.p/src_datetime_date_conversions.c.o.d -o pandas/_libs/pandas_datetime.cpython-311-darwin.so.p/src_datetime_date_conversions.c.o -c ../../pandas/_libs/src/datetime/date_conversions.c",
+    "file": "../../pandas/_libs/src/datetime/date_conversions.c",
+    "output": "pandas/_libs/pandas_datetime.cpython-311-darwin.so.p/src_datetime_date_conversions.c.o"
+  },
+  {
+    "directory": "/Users/ckrtmshehadeh/Desktop/6b/pandaslocal/pandas-thomas/build/cp311",
+    "command": "cc -Ipandas/_libs/pandas_datetime.cpython-311-darwin.so.p -Ipandas/_libs -I../../pandas/_libs -I../../../../../../virtualenvs/pandas-dev/lib/python3.11/site-packages/numpy/core/include -I../../pandas/_libs/include -I/Users/ckrtmshehadeh/anaconda3/include/python3.11 -fvisibility=hidden -fcolor-diagnostics -DNDEBUG -Wall -Winvalid-pch -std=c11 -O3 -DNPY_NO_DEPRECATED_API=0 -DNPY_TARGET_VERSION=NPY_1_21_API_VERSION -MD -MQ pandas/_libs/pandas_datetime.cpython-311-darwin.so.p/src_datetime_pd_datetime.c.o -MF pandas/_libs/pandas_datetime.cpython-311-darwin.so.p/src_datetime_pd_datetime.c.o.d -o pandas/_libs/pandas_datetime.cpython-311-darwin.so.p/src_datetime_pd_datetime.c.o -c ../../pandas/_libs/src/datetime/pd_datetime.c",
+    "file": "../../pandas/_libs/src/datetime/pd_datetime.c",
+    "output": "pandas/_libs/pandas_datetime.cpython-311-darwin.so.p/src_datetime_pd_datetime.c.o"
+  },
+  {
+    "directory": "/Users/ckrtmshehadeh/Desktop/6b/pandaslocal/pandas-thomas/build/cp311",
+    "command": "cc -Ipandas/_libs/pandas_parser.cpython-311-darwin.so.p -Ipandas/_libs -I../../pandas/_libs -I../../../../../../virtualenvs/pandas-dev/lib/python3.11/site-packages/numpy/core/include -I../../pandas/_libs/include -I/Users/ckrtmshehadeh/anaconda3/include/python3.11 -fvisibility=hidden -fcolor-diagnostics -DNDEBUG -Wall -Winvalid-pch -std=c11 -O3 -DNPY_NO_DEPRECATED_API=0 -DNPY_TARGET_VERSION=NPY_1_21_API_VERSION -MD -MQ pandas/_libs/pandas_parser.cpython-311-darwin.so.p/src_parser_tokenizer.c.o -MF pandas/_libs/pandas_parser.cpython-311-darwin.so.p/src_parser_tokenizer.c.o.d -o pandas/_libs/pandas_parser.cpython-311-darwin.so.p/src_parser_tokenizer.c.o -c ../../pandas/_libs/src/parser/tokenizer.c",
+    "file": "../../pandas/_libs/src/parser/tokenizer.c",
+    "output": "pandas/_libs/pandas_parser.cpython-311-darwin.so.p/src_parser_tokenizer.c.o"
+  },
+  {
+    "directory": "/Users/ckrtmshehadeh/Desktop/6b/pandaslocal/pandas-thomas/build/cp311",
+    "command": "cc -Ipandas/_libs/pandas_parser.cpython-311-darwin.so.p -Ipandas/_libs -I../../pandas/_libs -I../../../../../../virtualenvs/pandas-dev/lib/python3.11/site-packages/numpy/core/include -I../../pandas/_libs/include -I/Users/ckrtmshehadeh/anaconda3/include/python3.11 -fvisibility=hidden -fcolor-diagnostics -DNDEBUG -Wall -Winvalid-pch -std=c11 -O3 -DNPY_NO_DEPRECATED_API=0 -DNPY_TARGET_VERSION=NPY_1_21_API_VERSION -MD -MQ pandas/_libs/pandas_parser.cpython-311-darwin.so.p/src_parser_io.c.o -MF pandas/_libs/pandas_parser.cpython-311-darwin.so.p/src_parser_io.c.o.d -o pandas/_libs/pandas_parser.cpython-311-darwin.so.p/src_parser_io.c.o -c ../../pandas/_libs/src/parser/io.c",
+    "file": "../../pandas/_libs/src/parser/io.c",
+    "output": "pandas/_libs/pandas_parser.cpython-311-darwin.so.p/src_parser_io.c.o"
+  },
+  {
+    "directory": "/Users/ckrtmshehadeh/Desktop/6b/pandaslocal/pandas-thomas/build/cp311",
+    "command": "cc -Ipandas/_libs/pandas_parser.cpython-311-darwin.so.p -Ipandas/_libs -I../../pandas/_libs -I../../../../../../virtualenvs/pandas-dev/lib/python3.11/site-packages/numpy/core/include -I../../pandas/_libs/include -I/Users/ckrtmshehadeh/anaconda3/include/python3.11 -fvisibility=hidden -fcolor-diagnostics -DNDEBUG -Wall -Winvalid-pch -std=c11 -O3 -DNPY_NO_DEPRECATED_API=0 -DNPY_TARGET_VERSION=NPY_1_21_API_VERSION -MD -MQ pandas/_libs/pandas_parser.cpython-311-darwin.so.p/src_parser_pd_parser.c.o -MF pandas/_libs/pandas_parser.cpython-311-darwin.so.p/src_parser_pd_parser.c.o.d -o pandas/_libs/pandas_parser.cpython-311-darwin.so.p/src_parser_pd_parser.c.o -c ../../pandas/_libs/src/parser/pd_parser.c",
+    "file": "../../pandas/_libs/src/parser/pd_parser.c",
+    "output": "pandas/_libs/pandas_parser.cpython-311-darwin.so.p/src_parser_pd_parser.c.o"
+  },
+  {
+    "directory": "/Users/ckrtmshehadeh/Desktop/6b/pandaslocal/pandas-thomas/build/cp311",
+    "command": "cython -M --fast-fail -3 --include-dir /Users/ckrtmshehadeh/Desktop/6b/pandaslocal/pandas-thomas/build/cp311/pandas/_libs '-X always_allow_keywords=true' /Users/ckrtmshehadeh/Desktop/6b/pandaslocal/pandas-thomas/pandas/_libs/parsers.pyx -o pandas/_libs/parsers.cpython-311-darwin.so.p/pandas/_libs/parsers.pyx.c",
+    "file": "/Users/ckrtmshehadeh/Desktop/6b/pandaslocal/pandas-thomas/pandas/_libs/parsers.pyx",
+    "output": "pandas/_libs/parsers.cpython-311-darwin.so.p/pandas/_libs/parsers.pyx.c"
+  },
+  {
+    "directory": "/Users/ckrtmshehadeh/Desktop/6b/pandaslocal/pandas-thomas/build/cp311",
+    "command": "cc -Ipandas/_libs/parsers.cpython-311-darwin.so.p -Ipandas/_libs -I../../pandas/_libs -I../../../../../../virtualenvs/pandas-dev/lib/python3.11/site-packages/numpy/core/include -I../../pandas/_libs/include -I/Users/ckrtmshehadeh/anaconda3/include/python3.11 -fvisibility=hidden -fcolor-diagnostics -DNDEBUG -w -std=c11 -O3 -DNPY_NO_DEPRECATED_API=0 -DNPY_TARGET_VERSION=NPY_1_21_API_VERSION -MD -MQ pandas/_libs/parsers.cpython-311-darwin.so.p/meson-generated_pandas__libs_parsers.pyx.c.o -MF pandas/_libs/parsers.cpython-311-darwin.so.p/meson-generated_pandas__libs_parsers.pyx.c.o.d -o pandas/_libs/parsers.cpython-311-darwin.so.p/meson-generated_pandas__libs_parsers.pyx.c.o -c pandas/_libs/parsers.cpython-311-darwin.so.p/pandas/_libs/parsers.pyx.c",
+    "file": "pandas/_libs/parsers.cpython-311-darwin.so.p/pandas/_libs/parsers.pyx.c",
+    "output": "pandas/_libs/parsers.cpython-311-darwin.so.p/meson-generated_pandas__libs_parsers.pyx.c.o"
+  },
+  {
+    "directory": "/Users/ckrtmshehadeh/Desktop/6b/pandaslocal/pandas-thomas/build/cp311",
+    "command": "cc -Ipandas/_libs/parsers.cpython-311-darwin.so.p -Ipandas/_libs -I../../pandas/_libs -I../../../../../../virtualenvs/pandas-dev/lib/python3.11/site-packages/numpy/core/include -I../../pandas/_libs/include -I/Users/ckrtmshehadeh/anaconda3/include/python3.11 -fvisibility=hidden -fcolor-diagnostics -DNDEBUG -Wall -Winvalid-pch -std=c11 -O3 -DNPY_NO_DEPRECATED_API=0 -DNPY_TARGET_VERSION=NPY_1_21_API_VERSION -MD -MQ pandas/_libs/parsers.cpython-311-darwin.so.p/src_parser_tokenizer.c.o -MF pandas/_libs/parsers.cpython-311-darwin.so.p/src_parser_tokenizer.c.o.d -o pandas/_libs/parsers.cpython-311-darwin.so.p/src_parser_tokenizer.c.o -c ../../pandas/_libs/src/parser/tokenizer.c",
+    "file": "../../pandas/_libs/src/parser/tokenizer.c",
+    "output": "pandas/_libs/parsers.cpython-311-darwin.so.p/src_parser_tokenizer.c.o"
+  },
+  {
+    "directory": "/Users/ckrtmshehadeh/Desktop/6b/pandaslocal/pandas-thomas/build/cp311",
+    "command": "cc -Ipandas/_libs/parsers.cpython-311-darwin.so.p -Ipandas/_libs -I../../pandas/_libs -I../../../../../../virtualenvs/pandas-dev/lib/python3.11/site-packages/numpy/core/include -I../../pandas/_libs/include -I/Users/ckrtmshehadeh/anaconda3/include/python3.11 -fvisibility=hidden -fcolor-diagnostics -DNDEBUG -Wall -Winvalid-pch -std=c11 -O3 -DNPY_NO_DEPRECATED_API=0 -DNPY_TARGET_VERSION=NPY_1_21_API_VERSION -MD -MQ pandas/_libs/parsers.cpython-311-darwin.so.p/src_parser_io.c.o -MF pandas/_libs/parsers.cpython-311-darwin.so.p/src_parser_io.c.o.d -o pandas/_libs/parsers.cpython-311-darwin.so.p/src_parser_io.c.o -c ../../pandas/_libs/src/parser/io.c",
+    "file": "../../pandas/_libs/src/parser/io.c",
+    "output": "pandas/_libs/parsers.cpython-311-darwin.so.p/src_parser_io.c.o"
+  },
+  {
+    "directory": "/Users/ckrtmshehadeh/Desktop/6b/pandaslocal/pandas-thomas/build/cp311",
+    "command": "cc -Ipandas/_libs/json.cpython-311-darwin.so.p -Ipandas/_libs -I../../pandas/_libs -I../../../../../../virtualenvs/pandas-dev/lib/python3.11/site-packages/numpy/core/include -I../../pandas/_libs/include -I/Users/ckrtmshehadeh/anaconda3/include/python3.11 -fvisibility=hidden -fcolor-diagnostics -DNDEBUG -Wall -Winvalid-pch -std=c11 -O3 -DNPY_NO_DEPRECATED_API=0 -DNPY_TARGET_VERSION=NPY_1_21_API_VERSION -MD -MQ pandas/_libs/json.cpython-311-darwin.so.p/src_vendored_ujson_python_ujson.c.o -MF pandas/_libs/json.cpython-311-darwin.so.p/src_vendored_ujson_python_ujson.c.o.d -o pandas/_libs/json.cpython-311-darwin.so.p/src_vendored_ujson_python_ujson.c.o -c ../../pandas/_libs/src/vendored/ujson/python/ujson.c",
+    "file": "../../pandas/_libs/src/vendored/ujson/python/ujson.c",
+    "output": "pandas/_libs/json.cpython-311-darwin.so.p/src_vendored_ujson_python_ujson.c.o"
+  },
+  {
+    "directory": "/Users/ckrtmshehadeh/Desktop/6b/pandaslocal/pandas-thomas/build/cp311",
+    "command": "cc -Ipandas/_libs/json.cpython-311-darwin.so.p -Ipandas/_libs -I../../pandas/_libs -I../../../../../../virtualenvs/pandas-dev/lib/python3.11/site-packages/numpy/core/include -I../../pandas/_libs/include -I/Users/ckrtmshehadeh/anaconda3/include/python3.11 -fvisibility=hidden -fcolor-diagnostics -DNDEBUG -Wall -Winvalid-pch -std=c11 -O3 -DNPY_NO_DEPRECATED_API=0 -DNPY_TARGET_VERSION=NPY_1_21_API_VERSION -MD -MQ pandas/_libs/json.cpython-311-darwin.so.p/src_vendored_ujson_python_objToJSON.c.o -MF pandas/_libs/json.cpython-311-darwin.so.p/src_vendored_ujson_python_objToJSON.c.o.d -o pandas/_libs/json.cpython-311-darwin.so.p/src_vendored_ujson_python_objToJSON.c.o -c ../../pandas/_libs/src/vendored/ujson/python/objToJSON.c",
+    "file": "../../pandas/_libs/src/vendored/ujson/python/objToJSON.c",
+    "output": "pandas/_libs/json.cpython-311-darwin.so.p/src_vendored_ujson_python_objToJSON.c.o"
+  },
+  {
+    "directory": "/Users/ckrtmshehadeh/Desktop/6b/pandaslocal/pandas-thomas/build/cp311",
+    "command": "cc -Ipandas/_libs/json.cpython-311-darwin.so.p -Ipandas/_libs -I../../pandas/_libs -I../../../../../../virtualenvs/pandas-dev/lib/python3.11/site-packages/numpy/core/include -I../../pandas/_libs/include -I/Users/ckrtmshehadeh/anaconda3/include/python3.11 -fvisibility=hidden -fcolor-diagnostics -DNDEBUG -Wall -Winvalid-pch -std=c11 -O3 -DNPY_NO_DEPRECATED_API=0 -DNPY_TARGET_VERSION=NPY_1_21_API_VERSION -MD -MQ pandas/_libs/json.cpython-311-darwin.so.p/src_vendored_ujson_python_JSONtoObj.c.o -MF pandas/_libs/json.cpython-311-darwin.so.p/src_vendored_ujson_python_JSONtoObj.c.o.d -o pandas/_libs/json.cpython-311-darwin.so.p/src_vendored_ujson_python_JSONtoObj.c.o -c ../../pandas/_libs/src/vendored/ujson/python/JSONtoObj.c",
+    "file": "../../pandas/_libs/src/vendored/ujson/python/JSONtoObj.c",
+    "output": "pandas/_libs/json.cpython-311-darwin.so.p/src_vendored_ujson_python_JSONtoObj.c.o"
+  },
+  {
+    "directory": "/Users/ckrtmshehadeh/Desktop/6b/pandaslocal/pandas-thomas/build/cp311",
+    "command": "cc -Ipandas/_libs/json.cpython-311-darwin.so.p -Ipandas/_libs -I../../pandas/_libs -I../../../../../../virtualenvs/pandas-dev/lib/python3.11/site-packages/numpy/core/include -I../../pandas/_libs/include -I/Users/ckrtmshehadeh/anaconda3/include/python3.11 -fvisibility=hidden -fcolor-diagnostics -DNDEBUG -Wall -Winvalid-pch -std=c11 -O3 -DNPY_NO_DEPRECATED_API=0 -DNPY_TARGET_VERSION=NPY_1_21_API_VERSION -MD -MQ pandas/_libs/json.cpython-311-darwin.so.p/src_vendored_ujson_lib_ultrajsonenc.c.o -MF pandas/_libs/json.cpython-311-darwin.so.p/src_vendored_ujson_lib_ultrajsonenc.c.o.d -o pandas/_libs/json.cpython-311-darwin.so.p/src_vendored_ujson_lib_ultrajsonenc.c.o -c ../../pandas/_libs/src/vendored/ujson/lib/ultrajsonenc.c",
+    "file": "../../pandas/_libs/src/vendored/ujson/lib/ultrajsonenc.c",
+    "output": "pandas/_libs/json.cpython-311-darwin.so.p/src_vendored_ujson_lib_ultrajsonenc.c.o"
+  },
+  {
+    "directory": "/Users/ckrtmshehadeh/Desktop/6b/pandaslocal/pandas-thomas/build/cp311",
+    "command": "cc -Ipandas/_libs/json.cpython-311-darwin.so.p -Ipandas/_libs -I../../pandas/_libs -I../../../../../../virtualenvs/pandas-dev/lib/python3.11/site-packages/numpy/core/include -I../../pandas/_libs/include -I/Users/ckrtmshehadeh/anaconda3/include/python3.11 -fvisibility=hidden -fcolor-diagnostics -DNDEBUG -Wall -Winvalid-pch -std=c11 -O3 -DNPY_NO_DEPRECATED_API=0 -DNPY_TARGET_VERSION=NPY_1_21_API_VERSION -MD -MQ pandas/_libs/json.cpython-311-darwin.so.p/src_vendored_ujson_lib_ultrajsondec.c.o -MF pandas/_libs/json.cpython-311-darwin.so.p/src_vendored_ujson_lib_ultrajsondec.c.o.d -o pandas/_libs/json.cpython-311-darwin.so.p/src_vendored_ujson_lib_ultrajsondec.c.o -c ../../pandas/_libs/src/vendored/ujson/lib/ultrajsondec.c",
+    "file": "../../pandas/_libs/src/vendored/ujson/lib/ultrajsondec.c",
+    "output": "pandas/_libs/json.cpython-311-darwin.so.p/src_vendored_ujson_lib_ultrajsondec.c.o"
+  },
+  {
+    "directory": "/Users/ckrtmshehadeh/Desktop/6b/pandaslocal/pandas-thomas/build/cp311",
+    "command": "cython -M --fast-fail -3 --include-dir /Users/ckrtmshehadeh/Desktop/6b/pandaslocal/pandas-thomas/build/cp311/pandas/_libs '-X always_allow_keywords=true' /Users/ckrtmshehadeh/Desktop/6b/pandaslocal/pandas-thomas/pandas/_libs/ops.pyx -o pandas/_libs/ops.cpython-311-darwin.so.p/pandas/_libs/ops.pyx.c",
+    "file": "/Users/ckrtmshehadeh/Desktop/6b/pandaslocal/pandas-thomas/pandas/_libs/ops.pyx",
+    "output": "pandas/_libs/ops.cpython-311-darwin.so.p/pandas/_libs/ops.pyx.c"
+  },
+  {
+    "directory": "/Users/ckrtmshehadeh/Desktop/6b/pandaslocal/pandas-thomas/build/cp311",
+    "command": "cc -Ipandas/_libs/ops.cpython-311-darwin.so.p -Ipandas/_libs -I../../pandas/_libs -I../../../../../../virtualenvs/pandas-dev/lib/python3.11/site-packages/numpy/core/include -I../../pandas/_libs/include -I/Users/ckrtmshehadeh/anaconda3/include/python3.11 -fvisibility=hidden -fcolor-diagnostics -DNDEBUG -w -std=c11 -O3 -DNPY_NO_DEPRECATED_API=0 -DNPY_TARGET_VERSION=NPY_1_21_API_VERSION -MD -MQ pandas/_libs/ops.cpython-311-darwin.so.p/meson-generated_pandas__libs_ops.pyx.c.o -MF pandas/_libs/ops.cpython-311-darwin.so.p/meson-generated_pandas__libs_ops.pyx.c.o.d -o pandas/_libs/ops.cpython-311-darwin.so.p/meson-generated_pandas__libs_ops.pyx.c.o -c pandas/_libs/ops.cpython-311-darwin.so.p/pandas/_libs/ops.pyx.c",
+    "file": "pandas/_libs/ops.cpython-311-darwin.so.p/pandas/_libs/ops.pyx.c",
+    "output": "pandas/_libs/ops.cpython-311-darwin.so.p/meson-generated_pandas__libs_ops.pyx.c.o"
+  },
+  {
+    "directory": "/Users/ckrtmshehadeh/Desktop/6b/pandaslocal/pandas-thomas/build/cp311",
+    "command": "cython -M --fast-fail -3 --include-dir /Users/ckrtmshehadeh/Desktop/6b/pandaslocal/pandas-thomas/build/cp311/pandas/_libs '-X always_allow_keywords=true' /Users/ckrtmshehadeh/Desktop/6b/pandaslocal/pandas-thomas/pandas/_libs/ops_dispatch.pyx -o pandas/_libs/ops_dispatch.cpython-311-darwin.so.p/pandas/_libs/ops_dispatch.pyx.c",
+    "file": "/Users/ckrtmshehadeh/Desktop/6b/pandaslocal/pandas-thomas/pandas/_libs/ops_dispatch.pyx",
+    "output": "pandas/_libs/ops_dispatch.cpython-311-darwin.so.p/pandas/_libs/ops_dispatch.pyx.c"
+  },
+  {
+    "directory": "/Users/ckrtmshehadeh/Desktop/6b/pandaslocal/pandas-thomas/build/cp311",
+    "command": "cc -Ipandas/_libs/ops_dispatch.cpython-311-darwin.so.p -Ipandas/_libs -I../../pandas/_libs -I../../../../../../virtualenvs/pandas-dev/lib/python3.11/site-packages/numpy/core/include -I../../pandas/_libs/include -I/Users/ckrtmshehadeh/anaconda3/include/python3.11 -fvisibility=hidden -fcolor-diagnostics -DNDEBUG -w -std=c11 -O3 -DNPY_NO_DEPRECATED_API=0 -DNPY_TARGET_VERSION=NPY_1_21_API_VERSION -MD -MQ pandas/_libs/ops_dispatch.cpython-311-darwin.so.p/meson-generated_pandas__libs_ops_dispatch.pyx.c.o -MF pandas/_libs/ops_dispatch.cpython-311-darwin.so.p/meson-generated_pandas__libs_ops_dispatch.pyx.c.o.d -o pandas/_libs/ops_dispatch.cpython-311-darwin.so.p/meson-generated_pandas__libs_ops_dispatch.pyx.c.o -c pandas/_libs/ops_dispatch.cpython-311-darwin.so.p/pandas/_libs/ops_dispatch.pyx.c",
+    "file": "pandas/_libs/ops_dispatch.cpython-311-darwin.so.p/pandas/_libs/ops_dispatch.pyx.c",
+    "output": "pandas/_libs/ops_dispatch.cpython-311-darwin.so.p/meson-generated_pandas__libs_ops_dispatch.pyx.c.o"
+  },
+  {
+    "directory": "/Users/ckrtmshehadeh/Desktop/6b/pandaslocal/pandas-thomas/build/cp311",
+    "command": "cython -M --fast-fail -3 --include-dir /Users/ckrtmshehadeh/Desktop/6b/pandaslocal/pandas-thomas/build/cp311/pandas/_libs '-X always_allow_keywords=true' /Users/ckrtmshehadeh/Desktop/6b/pandaslocal/pandas-thomas/pandas/_libs/properties.pyx -o pandas/_libs/properties.cpython-311-darwin.so.p/pandas/_libs/properties.pyx.c",
+    "file": "/Users/ckrtmshehadeh/Desktop/6b/pandaslocal/pandas-thomas/pandas/_libs/properties.pyx",
+    "output": "pandas/_libs/properties.cpython-311-darwin.so.p/pandas/_libs/properties.pyx.c"
+  },
+  {
+    "directory": "/Users/ckrtmshehadeh/Desktop/6b/pandaslocal/pandas-thomas/build/cp311",
+    "command": "cc -Ipandas/_libs/properties.cpython-311-darwin.so.p -Ipandas/_libs -I../../pandas/_libs -I../../../../../../virtualenvs/pandas-dev/lib/python3.11/site-packages/numpy/core/include -I../../pandas/_libs/include -I/Users/ckrtmshehadeh/anaconda3/include/python3.11 -fvisibility=hidden -fcolor-diagnostics -DNDEBUG -w -std=c11 -O3 -DNPY_NO_DEPRECATED_API=0 -DNPY_TARGET_VERSION=NPY_1_21_API_VERSION -MD -MQ pandas/_libs/properties.cpython-311-darwin.so.p/meson-generated_pandas__libs_properties.pyx.c.o -MF pandas/_libs/properties.cpython-311-darwin.so.p/meson-generated_pandas__libs_properties.pyx.c.o.d -o pandas/_libs/properties.cpython-311-darwin.so.p/meson-generated_pandas__libs_properties.pyx.c.o -c pandas/_libs/properties.cpython-311-darwin.so.p/pandas/_libs/properties.pyx.c",
+    "file": "pandas/_libs/properties.cpython-311-darwin.so.p/pandas/_libs/properties.pyx.c",
+    "output": "pandas/_libs/properties.cpython-311-darwin.so.p/meson-generated_pandas__libs_properties.pyx.c.o"
+  },
+  {
+    "directory": "/Users/ckrtmshehadeh/Desktop/6b/pandaslocal/pandas-thomas/build/cp311",
+    "command": "cython -M --fast-fail -3 --include-dir /Users/ckrtmshehadeh/Desktop/6b/pandaslocal/pandas-thomas/build/cp311/pandas/_libs '-X always_allow_keywords=true' /Users/ckrtmshehadeh/Desktop/6b/pandaslocal/pandas-thomas/pandas/_libs/reshape.pyx -o pandas/_libs/reshape.cpython-311-darwin.so.p/pandas/_libs/reshape.pyx.c",
+    "file": "/Users/ckrtmshehadeh/Desktop/6b/pandaslocal/pandas-thomas/pandas/_libs/reshape.pyx",
+    "output": "pandas/_libs/reshape.cpython-311-darwin.so.p/pandas/_libs/reshape.pyx.c"
+  },
+  {
+    "directory": "/Users/ckrtmshehadeh/Desktop/6b/pandaslocal/pandas-thomas/build/cp311",
+    "command": "cc -Ipandas/_libs/reshape.cpython-311-darwin.so.p -Ipandas/_libs -I../../pandas/_libs -I../../../../../../virtualenvs/pandas-dev/lib/python3.11/site-packages/numpy/core/include -I../../pandas/_libs/include -I/Users/ckrtmshehadeh/anaconda3/include/python3.11 -fvisibility=hidden -fcolor-diagnostics -DNDEBUG -w -std=c11 -O3 -DNPY_NO_DEPRECATED_API=0 -DNPY_TARGET_VERSION=NPY_1_21_API_VERSION -MD -MQ pandas/_libs/reshape.cpython-311-darwin.so.p/meson-generated_pandas__libs_reshape.pyx.c.o -MF pandas/_libs/reshape.cpython-311-darwin.so.p/meson-generated_pandas__libs_reshape.pyx.c.o.d -o pandas/_libs/reshape.cpython-311-darwin.so.p/meson-generated_pandas__libs_reshape.pyx.c.o -c pandas/_libs/reshape.cpython-311-darwin.so.p/pandas/_libs/reshape.pyx.c",
+    "file": "pandas/_libs/reshape.cpython-311-darwin.so.p/pandas/_libs/reshape.pyx.c",
+    "output": "pandas/_libs/reshape.cpython-311-darwin.so.p/meson-generated_pandas__libs_reshape.pyx.c.o"
+  },
+  {
+    "directory": "/Users/ckrtmshehadeh/Desktop/6b/pandaslocal/pandas-thomas/build/cp311",
+    "command": "cython -M --fast-fail -3 --include-dir /Users/ckrtmshehadeh/Desktop/6b/pandaslocal/pandas-thomas/build/cp311/pandas/_libs '-X always_allow_keywords=true' /Users/ckrtmshehadeh/Desktop/6b/pandaslocal/pandas-thomas/pandas/_libs/sas.pyx -o pandas/_libs/sas.cpython-311-darwin.so.p/pandas/_libs/sas.pyx.c",
+    "file": "/Users/ckrtmshehadeh/Desktop/6b/pandaslocal/pandas-thomas/pandas/_libs/sas.pyx",
+    "output": "pandas/_libs/sas.cpython-311-darwin.so.p/pandas/_libs/sas.pyx.c"
+  },
+  {
+    "directory": "/Users/ckrtmshehadeh/Desktop/6b/pandaslocal/pandas-thomas/build/cp311",
+    "command": "cc -Ipandas/_libs/sas.cpython-311-darwin.so.p -Ipandas/_libs -I../../pandas/_libs -I../../../../../../virtualenvs/pandas-dev/lib/python3.11/site-packages/numpy/core/include -I../../pandas/_libs/include -I/Users/ckrtmshehadeh/anaconda3/include/python3.11 -fvisibility=hidden -fcolor-diagnostics -DNDEBUG -w -std=c11 -O3 -DNPY_NO_DEPRECATED_API=0 -DNPY_TARGET_VERSION=NPY_1_21_API_VERSION -MD -MQ pandas/_libs/sas.cpython-311-darwin.so.p/meson-generated_pandas__libs_sas.pyx.c.o -MF pandas/_libs/sas.cpython-311-darwin.so.p/meson-generated_pandas__libs_sas.pyx.c.o.d -o pandas/_libs/sas.cpython-311-darwin.so.p/meson-generated_pandas__libs_sas.pyx.c.o -c pandas/_libs/sas.cpython-311-darwin.so.p/pandas/_libs/sas.pyx.c",
+    "file": "pandas/_libs/sas.cpython-311-darwin.so.p/pandas/_libs/sas.pyx.c",
+    "output": "pandas/_libs/sas.cpython-311-darwin.so.p/meson-generated_pandas__libs_sas.pyx.c.o"
+  },
+  {
+    "directory": "/Users/ckrtmshehadeh/Desktop/6b/pandaslocal/pandas-thomas/build/cp311",
+    "command": "cython -M --fast-fail -3 --include-dir /Users/ckrtmshehadeh/Desktop/6b/pandaslocal/pandas-thomas/build/cp311/pandas/_libs '-X always_allow_keywords=true' /Users/ckrtmshehadeh/Desktop/6b/pandaslocal/pandas-thomas/pandas/_libs/byteswap.pyx -o pandas/_libs/byteswap.cpython-311-darwin.so.p/pandas/_libs/byteswap.pyx.c",
+    "file": "/Users/ckrtmshehadeh/Desktop/6b/pandaslocal/pandas-thomas/pandas/_libs/byteswap.pyx",
+    "output": "pandas/_libs/byteswap.cpython-311-darwin.so.p/pandas/_libs/byteswap.pyx.c"
+  },
+  {
+    "directory": "/Users/ckrtmshehadeh/Desktop/6b/pandaslocal/pandas-thomas/build/cp311",
+    "command": "cc -Ipandas/_libs/byteswap.cpython-311-darwin.so.p -Ipandas/_libs -I../../pandas/_libs -I../../../../../../virtualenvs/pandas-dev/lib/python3.11/site-packages/numpy/core/include -I../../pandas/_libs/include -I/Users/ckrtmshehadeh/anaconda3/include/python3.11 -fvisibility=hidden -fcolor-diagnostics -DNDEBUG -w -std=c11 -O3 -DNPY_NO_DEPRECATED_API=0 -DNPY_TARGET_VERSION=NPY_1_21_API_VERSION -MD -MQ pandas/_libs/byteswap.cpython-311-darwin.so.p/meson-generated_pandas__libs_byteswap.pyx.c.o -MF pandas/_libs/byteswap.cpython-311-darwin.so.p/meson-generated_pandas__libs_byteswap.pyx.c.o.d -o pandas/_libs/byteswap.cpython-311-darwin.so.p/meson-generated_pandas__libs_byteswap.pyx.c.o -c pandas/_libs/byteswap.cpython-311-darwin.so.p/pandas/_libs/byteswap.pyx.c",
+    "file": "pandas/_libs/byteswap.cpython-311-darwin.so.p/pandas/_libs/byteswap.pyx.c",
+    "output": "pandas/_libs/byteswap.cpython-311-darwin.so.p/meson-generated_pandas__libs_byteswap.pyx.c.o"
+  },
+  {
+    "directory": "/Users/ckrtmshehadeh/Desktop/6b/pandaslocal/pandas-thomas/build/cp311",
+    "command": "cython -M --fast-fail -3 --include-dir /Users/ckrtmshehadeh/Desktop/6b/pandaslocal/pandas-thomas/build/cp311/pandas/_libs '-X always_allow_keywords=true' /Users/ckrtmshehadeh/Desktop/6b/pandaslocal/pandas-thomas/pandas/_libs/sparse.pyx -o pandas/_libs/sparse.cpython-311-darwin.so.p/pandas/_libs/sparse.pyx.c",
+    "file": "/Users/ckrtmshehadeh/Desktop/6b/pandaslocal/pandas-thomas/pandas/_libs/sparse.pyx",
+    "output": "pandas/_libs/sparse.cpython-311-darwin.so.p/pandas/_libs/sparse.pyx.c"
+  },
+  {
+    "directory": "/Users/ckrtmshehadeh/Desktop/6b/pandaslocal/pandas-thomas/build/cp311",
+    "command": "cc -Ipandas/_libs/sparse.cpython-311-darwin.so.p -Ipandas/_libs -I../../pandas/_libs -I../../../../../../virtualenvs/pandas-dev/lib/python3.11/site-packages/numpy/core/include -I../../pandas/_libs/include -I/Users/ckrtmshehadeh/anaconda3/include/python3.11 -fvisibility=hidden -fcolor-diagnostics -DNDEBUG -w -std=c11 -O3 -DNPY_NO_DEPRECATED_API=0 -DNPY_TARGET_VERSION=NPY_1_21_API_VERSION -MD -MQ pandas/_libs/sparse.cpython-311-darwin.so.p/meson-generated_pandas__libs_sparse.pyx.c.o -MF pandas/_libs/sparse.cpython-311-darwin.so.p/meson-generated_pandas__libs_sparse.pyx.c.o.d -o pandas/_libs/sparse.cpython-311-darwin.so.p/meson-generated_pandas__libs_sparse.pyx.c.o -c pandas/_libs/sparse.cpython-311-darwin.so.p/pandas/_libs/sparse.pyx.c",
+    "file": "pandas/_libs/sparse.cpython-311-darwin.so.p/pandas/_libs/sparse.pyx.c",
+    "output": "pandas/_libs/sparse.cpython-311-darwin.so.p/meson-generated_pandas__libs_sparse.pyx.c.o"
+  },
+  {
+    "directory": "/Users/ckrtmshehadeh/Desktop/6b/pandaslocal/pandas-thomas/build/cp311",
+    "command": "cython -M --fast-fail -3 --include-dir /Users/ckrtmshehadeh/Desktop/6b/pandaslocal/pandas-thomas/build/cp311/pandas/_libs '-X always_allow_keywords=true' /Users/ckrtmshehadeh/Desktop/6b/pandaslocal/pandas-thomas/pandas/_libs/tslib.pyx -o pandas/_libs/tslib.cpython-311-darwin.so.p/pandas/_libs/tslib.pyx.c",
+    "file": "/Users/ckrtmshehadeh/Desktop/6b/pandaslocal/pandas-thomas/pandas/_libs/tslib.pyx",
+    "output": "pandas/_libs/tslib.cpython-311-darwin.so.p/pandas/_libs/tslib.pyx.c"
+  },
+  {
+    "directory": "/Users/ckrtmshehadeh/Desktop/6b/pandaslocal/pandas-thomas/build/cp311",
+    "command": "cc -Ipandas/_libs/tslib.cpython-311-darwin.so.p -Ipandas/_libs -I../../pandas/_libs -I../../../../../../virtualenvs/pandas-dev/lib/python3.11/site-packages/numpy/core/include -I../../pandas/_libs/include -I/Users/ckrtmshehadeh/anaconda3/include/python3.11 -fvisibility=hidden -fcolor-diagnostics -DNDEBUG -w -std=c11 -O3 -DNPY_NO_DEPRECATED_API=0 -DNPY_TARGET_VERSION=NPY_1_21_API_VERSION -MD -MQ pandas/_libs/tslib.cpython-311-darwin.so.p/meson-generated_pandas__libs_tslib.pyx.c.o -MF pandas/_libs/tslib.cpython-311-darwin.so.p/meson-generated_pandas__libs_tslib.pyx.c.o.d -o pandas/_libs/tslib.cpython-311-darwin.so.p/meson-generated_pandas__libs_tslib.pyx.c.o -c pandas/_libs/tslib.cpython-311-darwin.so.p/pandas/_libs/tslib.pyx.c",
+    "file": "pandas/_libs/tslib.cpython-311-darwin.so.p/pandas/_libs/tslib.pyx.c",
+    "output": "pandas/_libs/tslib.cpython-311-darwin.so.p/meson-generated_pandas__libs_tslib.pyx.c.o"
+  },
+  {
+    "directory": "/Users/ckrtmshehadeh/Desktop/6b/pandaslocal/pandas-thomas/build/cp311",
+    "command": "cython -M --fast-fail -3 --include-dir /Users/ckrtmshehadeh/Desktop/6b/pandaslocal/pandas-thomas/build/cp311/pandas/_libs '-X always_allow_keywords=true' /Users/ckrtmshehadeh/Desktop/6b/pandaslocal/pandas-thomas/pandas/_libs/testing.pyx -o pandas/_libs/testing.cpython-311-darwin.so.p/pandas/_libs/testing.pyx.c",
+    "file": "/Users/ckrtmshehadeh/Desktop/6b/pandaslocal/pandas-thomas/pandas/_libs/testing.pyx",
+    "output": "pandas/_libs/testing.cpython-311-darwin.so.p/pandas/_libs/testing.pyx.c"
+  },
+  {
+    "directory": "/Users/ckrtmshehadeh/Desktop/6b/pandaslocal/pandas-thomas/build/cp311",
+    "command": "cc -Ipandas/_libs/testing.cpython-311-darwin.so.p -Ipandas/_libs -I../../pandas/_libs -I../../../../../../virtualenvs/pandas-dev/lib/python3.11/site-packages/numpy/core/include -I../../pandas/_libs/include -I/Users/ckrtmshehadeh/anaconda3/include/python3.11 -fvisibility=hidden -fcolor-diagnostics -DNDEBUG -w -std=c11 -O3 -DNPY_NO_DEPRECATED_API=0 -DNPY_TARGET_VERSION=NPY_1_21_API_VERSION -MD -MQ pandas/_libs/testing.cpython-311-darwin.so.p/meson-generated_pandas__libs_testing.pyx.c.o -MF pandas/_libs/testing.cpython-311-darwin.so.p/meson-generated_pandas__libs_testing.pyx.c.o.d -o pandas/_libs/testing.cpython-311-darwin.so.p/meson-generated_pandas__libs_testing.pyx.c.o -c pandas/_libs/testing.cpython-311-darwin.so.p/pandas/_libs/testing.pyx.c",
+    "file": "pandas/_libs/testing.cpython-311-darwin.so.p/pandas/_libs/testing.pyx.c",
+    "output": "pandas/_libs/testing.cpython-311-darwin.so.p/meson-generated_pandas__libs_testing.pyx.c.o"
+  },
+  {
+    "directory": "/Users/ckrtmshehadeh/Desktop/6b/pandaslocal/pandas-thomas/build/cp311",
+    "command": "cython -M --fast-fail -3 --include-dir /Users/ckrtmshehadeh/Desktop/6b/pandaslocal/pandas-thomas/build/cp311/pandas/_libs '-X always_allow_keywords=true' /Users/ckrtmshehadeh/Desktop/6b/pandaslocal/pandas-thomas/pandas/_libs/writers.pyx -o pandas/_libs/writers.cpython-311-darwin.so.p/pandas/_libs/writers.pyx.c",
+    "file": "/Users/ckrtmshehadeh/Desktop/6b/pandaslocal/pandas-thomas/pandas/_libs/writers.pyx",
+    "output": "pandas/_libs/writers.cpython-311-darwin.so.p/pandas/_libs/writers.pyx.c"
+  },
+  {
+    "directory": "/Users/ckrtmshehadeh/Desktop/6b/pandaslocal/pandas-thomas/build/cp311",
+    "command": "cc -Ipandas/_libs/writers.cpython-311-darwin.so.p -Ipandas/_libs -I../../pandas/_libs -I../../../../../../virtualenvs/pandas-dev/lib/python3.11/site-packages/numpy/core/include -I../../pandas/_libs/include -I/Users/ckrtmshehadeh/anaconda3/include/python3.11 -fvisibility=hidden -fcolor-diagnostics -DNDEBUG -w -std=c11 -O3 -DNPY_NO_DEPRECATED_API=0 -DNPY_TARGET_VERSION=NPY_1_21_API_VERSION -MD -MQ pandas/_libs/writers.cpython-311-darwin.so.p/meson-generated_pandas__libs_writers.pyx.c.o -MF pandas/_libs/writers.cpython-311-darwin.so.p/meson-generated_pandas__libs_writers.pyx.c.o.d -o pandas/_libs/writers.cpython-311-darwin.so.p/meson-generated_pandas__libs_writers.pyx.c.o -c pandas/_libs/writers.cpython-311-darwin.so.p/pandas/_libs/writers.pyx.c",
+    "file": "pandas/_libs/writers.cpython-311-darwin.so.p/pandas/_libs/writers.pyx.c",
+    "output": "pandas/_libs/writers.cpython-311-darwin.so.p/meson-generated_pandas__libs_writers.pyx.c.o"
+  },
+  {
+    "directory": "/Users/ckrtmshehadeh/Desktop/6b/pandaslocal/pandas-thomas/build/cp311",
+    "command": "cython -M --fast-fail -3 --cplus '-X always_allow_keywords=true' /Users/ckrtmshehadeh/Desktop/6b/pandaslocal/pandas-thomas/pandas/_libs/window/aggregations.pyx -o pandas/_libs/window/aggregations.cpython-311-darwin.so.p/pandas/_libs/window/aggregations.pyx.cpp",
+    "file": "/Users/ckrtmshehadeh/Desktop/6b/pandaslocal/pandas-thomas/pandas/_libs/window/aggregations.pyx",
+    "output": "pandas/_libs/window/aggregations.cpython-311-darwin.so.p/pandas/_libs/window/aggregations.pyx.cpp"
+  },
+  {
+    "directory": "/Users/ckrtmshehadeh/Desktop/6b/pandaslocal/pandas-thomas/build/cp311",
+    "command": "c++ -Ipandas/_libs/window/aggregations.cpython-311-darwin.so.p -Ipandas/_libs/window -I../../pandas/_libs/window -I../../../../../../virtualenvs/pandas-dev/lib/python3.11/site-packages/numpy/core/include -I../../pandas/_libs/include -I/Users/ckrtmshehadeh/anaconda3/include/python3.11 -fvisibility=hidden -fvisibility-inlines-hidden -fcolor-diagnostics -DNDEBUG -w -O3 -DNPY_NO_DEPRECATED_API=0 -DNPY_TARGET_VERSION=NPY_1_21_API_VERSION -MD -MQ pandas/_libs/window/aggregations.cpython-311-darwin.so.p/meson-generated_pandas__libs_window_aggregations.pyx.cpp.o -MF pandas/_libs/window/aggregations.cpython-311-darwin.so.p/meson-generated_pandas__libs_window_aggregations.pyx.cpp.o.d -o pandas/_libs/window/aggregations.cpython-311-darwin.so.p/meson-generated_pandas__libs_window_aggregations.pyx.cpp.o -c pandas/_libs/window/aggregations.cpython-311-darwin.so.p/pandas/_libs/window/aggregations.pyx.cpp",
+    "file": "pandas/_libs/window/aggregations.cpython-311-darwin.so.p/pandas/_libs/window/aggregations.pyx.cpp",
+    "output": "pandas/_libs/window/aggregations.cpython-311-darwin.so.p/meson-generated_pandas__libs_window_aggregations.pyx.cpp.o"
+  },
+  {
+    "directory": "/Users/ckrtmshehadeh/Desktop/6b/pandaslocal/pandas-thomas/build/cp311",
+    "command": "cython -M --fast-fail -3 '-X always_allow_keywords=true' /Users/ckrtmshehadeh/Desktop/6b/pandaslocal/pandas-thomas/pandas/_libs/window/indexers.pyx -o pandas/_libs/window/indexers.cpython-311-darwin.so.p/pandas/_libs/window/indexers.pyx.c",
+    "file": "/Users/ckrtmshehadeh/Desktop/6b/pandaslocal/pandas-thomas/pandas/_libs/window/indexers.pyx",
+    "output": "pandas/_libs/window/indexers.cpython-311-darwin.so.p/pandas/_libs/window/indexers.pyx.c"
+  },
+  {
+    "directory": "/Users/ckrtmshehadeh/Desktop/6b/pandaslocal/pandas-thomas/build/cp311",
+    "command": "cc -Ipandas/_libs/window/indexers.cpython-311-darwin.so.p -Ipandas/_libs/window -I../../pandas/_libs/window -I../../../../../../virtualenvs/pandas-dev/lib/python3.11/site-packages/numpy/core/include -I../../pandas/_libs/include -I/Users/ckrtmshehadeh/anaconda3/include/python3.11 -fvisibility=hidden -fcolor-diagnostics -DNDEBUG -w -std=c11 -O3 -DNPY_NO_DEPRECATED_API=0 -DNPY_TARGET_VERSION=NPY_1_21_API_VERSION -MD -MQ pandas/_libs/window/indexers.cpython-311-darwin.so.p/meson-generated_pandas__libs_window_indexers.pyx.c.o -MF pandas/_libs/window/indexers.cpython-311-darwin.so.p/meson-generated_pandas__libs_window_indexers.pyx.c.o.d -o pandas/_libs/window/indexers.cpython-311-darwin.so.p/meson-generated_pandas__libs_window_indexers.pyx.c.o -c pandas/_libs/window/indexers.cpython-311-darwin.so.p/pandas/_libs/window/indexers.pyx.c",
+    "file": "pandas/_libs/window/indexers.cpython-311-darwin.so.p/pandas/_libs/window/indexers.pyx.c",
+    "output": "pandas/_libs/window/indexers.cpython-311-darwin.so.p/meson-generated_pandas__libs_window_indexers.pyx.c.o"
+  }
+]

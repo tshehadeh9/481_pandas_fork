@@ -1,0 +1,9 @@
+pandas/_libs/tslibs/ccalendar.cpython-311-darwin.so.p/pandas/_libs/tslibs/ccalendar.pyx.c: \
+  /Users/ckrtmshehadeh/virtualenvs/pandas-dev/lib/python3.11/site-packages/Cython/Includes/cpython/ref.pxd \
+  /Users/ckrtmshehadeh/virtualenvs/pandas-dev/lib/python3.11/site-packages/Cython/Includes/libc/stdio.pxd \
+  ../../pandas/_libs/tslibs/ccalendar.pxd \
+  /Users/ckrtmshehadeh/virtualenvs/pandas-dev/lib/python3.11/site-packages/Cython/Includes/cpython/object.pxd \
+  /Users/ckrtmshehadeh/virtualenvs/pandas-dev/lib/python3.11/site-packages/Cython/Includes/libc/string.pxd \
+  /Users/ckrtmshehadeh/virtualenvs/pandas-dev/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd \
+  /Users/ckrtmshehadeh/virtualenvs/pandas-dev/lib/python3.11/site-packages/Cython/Includes/cpython/type.pxd \
+  ../../pandas/_libs/tslibs/ccalendar.pyx

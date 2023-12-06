@@ -1,0 +1,12 @@
+pandas/_libs/window/aggregations.cpython-311-darwin.so.p/pandas/_libs/window/aggregations.pyx.cpp: \
+  /Users/ckrtmshehadeh/virtualenvs/pandas-dev/lib/python3.11/site-packages/Cython/Includes/libc/stdio.pxd \
+  /Users/ckrtmshehadeh/Desktop/6b/pandaslocal/pandas-thomas/pandas/_libs/dtypes.pxd \
+  /Users/ckrtmshehadeh/virtualenvs/pandas-dev/lib/python3.11/site-packages/Cython/Includes/cpython/type.pxd \
+  /Users/ckrtmshehadeh/virtualenvs/pandas-dev/lib/python3.11/site-packages/Cython/Includes/cpython/ref.pxd \
+  /Users/ckrtmshehadeh/virtualenvs/pandas-dev/lib/python3.11/site-packages/Cython/Includes/libc/math.pxd \
+  /Users/ckrtmshehadeh/virtualenvs/pandas-dev/lib/python3.11/site-packages/Cython/Includes/cpython/object.pxd \
+  /Users/ckrtmshehadeh/virtualenvs/pandas-dev/lib/python3.11/site-packages/Cython/Includes/libc/string.pxd \
+  /Users/ckrtmshehadeh/virtualenvs/pandas-dev/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd \
+  /Users/ckrtmshehadeh/virtualenvs/pandas-dev/lib/python3.11/site-packages/Cython/Includes/libcpp/deque.pxd \
+  ../../pandas/_libs/window/aggregations.pyx \
+  /Users/ckrtmshehadeh/Desktop/6b/pandaslocal/pandas-thomas/pandas/_libs/algos.pxd

@@ -1,0 +1,11 @@
+pandas/_libs/reshape.cpython-311-darwin.so.p/pandas/_libs/reshape.pyx.c: \
+  ../../pandas/_libs/reshape.pyx \
+  /Users/ckrtmshehadeh/virtualenvs/pandas-dev/lib/python3.11/site-packages/Cython/Includes/cpython/object.pxd \
+  /Users/ckrtmshehadeh/virtualenvs/pandas-dev/lib/python3.11/site-packages/Cython/Includes/cpython/ref.pxd \
+  /Users/ckrtmshehadeh/virtualenvs/pandas-dev/lib/python3.11/site-packages/Cython/Includes/cpython/type.pxd \
+  /Users/ckrtmshehadeh/virtualenvs/pandas-dev/lib/python3.11/site-packages/Cython/Includes/libc/math.pxd \
+  /Users/ckrtmshehadeh/virtualenvs/pandas-dev/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd \
+  ../../pandas/_libs/dtypes.pxd \
+  /Users/ckrtmshehadeh/virtualenvs/pandas-dev/lib/python3.11/site-packages/Cython/Includes/libc/string.pxd \
+  ../../pandas/_libs/lib.pxd \
+  /Users/ckrtmshehadeh/virtualenvs/pandas-dev/lib/python3.11/site-packages/Cython/Includes/libc/stdio.pxd

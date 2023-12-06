@@ -1,0 +1,9 @@
+[options]
+buildtype = release
+b_ndebug = if-release
+b_vscrt = md
+vsenv = True
+
+[properties]
+native_file = ['/Users/ckrtmshehadeh/Desktop/6b/pandaslocal/pandas-thomas/build/cp311/meson-python-native-file.ini']
+

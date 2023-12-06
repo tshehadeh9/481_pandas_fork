@@ -1,0 +1,4 @@
+pandas/_libs/byteswap.cpython-311-darwin.so.p/pandas/_libs/byteswap.pyx.c: \
+  ../../pandas/_libs/byteswap.pyx \
+  /Users/ckrtmshehadeh/virtualenvs/pandas-dev/lib/python3.11/site-packages/Cython/Includes/libc/string.pxd \
+  /Users/ckrtmshehadeh/virtualenvs/pandas-dev/lib/python3.11/site-packages/Cython/Includes/libc/stdint.pxd

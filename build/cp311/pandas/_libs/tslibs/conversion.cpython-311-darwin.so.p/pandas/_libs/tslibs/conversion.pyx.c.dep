@@ -1,0 +1,24 @@
+pandas/_libs/tslibs/conversion.cpython-311-darwin.so.p/pandas/_libs/tslibs/conversion.pyx.c: \
+  /Users/ckrtmshehadeh/virtualenvs/pandas-dev/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd \
+  ../../pandas/_libs/tslibs/timestamps.pxd \
+  ../../pandas/_libs/tslibs/offsets.pxd \
+  /Users/ckrtmshehadeh/virtualenvs/pandas-dev/lib/python3.11/site-packages/Cython/Includes/cpython/ref.pxd \
+  ../../pandas/_libs/tslibs/base.pxd \
+  ../../pandas/_libs/tslibs/np_datetime.pxd \
+  /Users/ckrtmshehadeh/virtualenvs/pandas-dev/lib/python3.11/site-packages/Cython/Includes/cpython/object.pxd \
+  ../../pandas/_libs/tslibs/nattype.pxd \
+  /Users/ckrtmshehadeh/Desktop/6b/pandaslocal/pandas-thomas/pandas/_libs/missing.pxd \
+  ../../pandas/_libs/tslibs/conversion.pyx \
+  ../../pandas/_libs/tslibs/parsing.pxd \
+  /Users/ckrtmshehadeh/virtualenvs/pandas-dev/lib/python3.11/site-packages/Cython/Includes/libc/math.pxd \
+  ../../pandas/_libs/tslibs/tzconversion.pxd \
+  ../../pandas/_libs/tslibs/timezones.pxd \
+  /Users/ckrtmshehadeh/virtualenvs/pandas-dev/lib/python3.11/site-packages/Cython/Includes/libc/stdio.pxd \
+  ../../pandas/_libs/tslibs/conversion.pxd \
+  /Users/ckrtmshehadeh/virtualenvs/pandas-dev/lib/python3.11/site-packages/Cython/Includes/cpython/version.pxd \
+  ../../pandas/_libs/tslibs/util.pxd \
+  /Users/ckrtmshehadeh/virtualenvs/pandas-dev/lib/python3.11/site-packages/Cython/Includes/libc/string.pxd \
+  /Users/ckrtmshehadeh/virtualenvs/pandas-dev/lib/python3.11/site-packages/Cython/Includes/cpython/unicode.pxd \
+  ../../pandas/_libs/tslibs/dtypes.pxd \
+  /Users/ckrtmshehadeh/virtualenvs/pandas-dev/lib/python3.11/site-packages/Cython/Includes/cpython/type.pxd \
+  /Users/ckrtmshehadeh/virtualenvs/pandas-dev/lib/python3.11/site-packages/Cython/Includes/cpython/datetime.pxd

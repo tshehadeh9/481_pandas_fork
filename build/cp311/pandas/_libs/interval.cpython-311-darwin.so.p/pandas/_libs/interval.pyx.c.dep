@@ -1,0 +1,22 @@
+pandas/_libs/interval.cpython-311-darwin.so.p/pandas/_libs/interval.pyx.c: \
+  ../../pandas/_libs/hashtable.pxd \
+  /Users/ckrtmshehadeh/virtualenvs/pandas-dev/lib/python3.11/site-packages/Cython/Includes/cpython/type.pxd \
+  ../../pandas/_libs/interval.pyx \
+  /Users/ckrtmshehadeh/virtualenvs/pandas-dev/lib/python3.11/site-packages/Cython/Includes/cpython/ref.pxd \
+  /Users/ckrtmshehadeh/virtualenvs/pandas-dev/lib/python3.11/site-packages/Cython/Includes/cpython/version.pxd \
+  ../../pandas/_libs/tslibs/np_datetime.pxd \
+  /Users/ckrtmshehadeh/virtualenvs/pandas-dev/lib/python3.11/site-packages/Cython/Includes/cpython/unicode.pxd \
+  ../../pandas/_libs/tslibs/timezones.pxd \
+  ../../pandas/_libs/tslibs/timedeltas.pxd \
+  /Users/ckrtmshehadeh/virtualenvs/pandas-dev/lib/python3.11/site-packages/Cython/Includes/libc/string.pxd \
+  ../../pandas/_libs/khash_for_primitive_helper.pxi \
+  /Users/ckrtmshehadeh/virtualenvs/pandas-dev/lib/python3.11/site-packages/Cython/Includes/libc/stdio.pxd \
+  ../../pandas/_libs/tslibs/util.pxd \
+  ../../pandas/_libs/intervaltree.pxi \
+  ../../pandas/_libs/tslibs/offsets.pxd \
+  ../../pandas/_libs/khash.pxd \
+  ../../pandas/_libs/tslibs/base.pxd \
+  /Users/ckrtmshehadeh/virtualenvs/pandas-dev/lib/python3.11/site-packages/Cython/Includes/cpython/datetime.pxd \
+  ../../pandas/_libs/tslibs/timestamps.pxd \
+  /Users/ckrtmshehadeh/virtualenvs/pandas-dev/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd \
+  /Users/ckrtmshehadeh/virtualenvs/pandas-dev/lib/python3.11/site-packages/Cython/Includes/cpython/object.pxd

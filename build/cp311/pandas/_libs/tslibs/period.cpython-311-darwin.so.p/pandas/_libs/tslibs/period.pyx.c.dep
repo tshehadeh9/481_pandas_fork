@@ -1,0 +1,24 @@
+pandas/_libs/tslibs/period.cpython-311-darwin.so.p/pandas/_libs/tslibs/period.pyx.c: \
+  /Users/ckrtmshehadeh/Desktop/6b/pandaslocal/pandas-thomas/pandas/_libs/missing.pxd \
+  ../../pandas/_libs/tslibs/period.pyx \
+  ../../pandas/_libs/tslibs/period.pxd \
+  ../../pandas/_libs/tslibs/nattype.pxd \
+  ../../pandas/_libs/tslibs/timedeltas.pxd \
+  /Users/ckrtmshehadeh/virtualenvs/pandas-dev/lib/python3.11/site-packages/Cython/Includes/cpython/unicode.pxd \
+  /Users/ckrtmshehadeh/virtualenvs/pandas-dev/lib/python3.11/site-packages/Cython/Includes/cpython/datetime.pxd \
+  ../../pandas/_libs/tslibs/parsing.pxd \
+  ../../pandas/_libs/tslibs/offsets.pxd \
+  ../../pandas/_libs/tslibs/ccalendar.pxd \
+  ../../pandas/_libs/tslibs/dtypes.pxd \
+  ../../pandas/_libs/tslibs/np_datetime.pxd \
+  /Users/ckrtmshehadeh/virtualenvs/pandas-dev/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd \
+  /Users/ckrtmshehadeh/virtualenvs/pandas-dev/lib/python3.11/site-packages/Cython/Includes/libc/stddef.pxd \
+  /Users/ckrtmshehadeh/virtualenvs/pandas-dev/lib/python3.11/site-packages/Cython/Includes/cpython/version.pxd \
+  /Users/ckrtmshehadeh/virtualenvs/pandas-dev/lib/python3.11/site-packages/Cython/Includes/libc/string.pxd \
+  /Users/ckrtmshehadeh/virtualenvs/pandas-dev/lib/python3.11/site-packages/Cython/Includes/libc/time.pxd \
+  /Users/ckrtmshehadeh/virtualenvs/pandas-dev/lib/python3.11/site-packages/Cython/Includes/cpython/ref.pxd \
+  /Users/ckrtmshehadeh/virtualenvs/pandas-dev/lib/python3.11/site-packages/Cython/Includes/cpython/object.pxd \
+  ../../pandas/_libs/tslibs/util.pxd \
+  /Users/ckrtmshehadeh/virtualenvs/pandas-dev/lib/python3.11/site-packages/Cython/Includes/cpython/type.pxd \
+  /Users/ckrtmshehadeh/virtualenvs/pandas-dev/lib/python3.11/site-packages/Cython/Includes/libc/stdlib.pxd \
+  /Users/ckrtmshehadeh/virtualenvs/pandas-dev/lib/python3.11/site-packages/Cython/Includes/libc/stdio.pxd
